@@ -1,0 +1,3177 @@
+MIG: 08:54:33 : Running customizer.xit
+MIG: 08:54:34 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 08:54:34 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 08:54:34 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:54:34 : outputDirectory: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 08:54:34 : vivado_mode: xpg_bd
+MIG: 08:54:34 :  locked false  
+MIG: 08:54:34 : HDL Language: Verilog
+MIG: 08:54:34 : compInfo: false
+MIG: 08:54:34 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 08:54:34 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 08:54:34 : I am in catch area
+MIG: 08:54:34 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 08:58:04 : Prasad before: xmlPropertyPrj -- .prj
+MIG: 08:58:04 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 08:58:04 : XML_INPUT_FILE: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 08:58:04 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:58:04 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:58:04 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:58:04 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:58:04 : Sending back 0
+MIG: 08:58:05 : xml_input_file: mig_a.prj
+MIG: 08:58:05 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 08:58:05 : xml_input_file: mig_a.prj
+MIG: 08:58:05 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 08:58:05 : In updateAllModelParams
+MIG: 08:58:05 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:58:05 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 08:58:05 : XGUI hdlLanguage: Verilog
+MIG: 08:58:05 : xgui vivado_mode: xpg_bd
+MIG: 08:58:05 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 08:58:05 : Reading F:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 08:58:06 : 1
+MIG: 08:58:06 : Inside fn mem: DDR3
+MIG: 08:58:06 : detect_uiclk: 200000000
+MIG: 08:58:06 : cntrl:  memtype: DDR3
+MIG: 08:58:06 : 800
+MIG: 08:58:06 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 08:58:06 : 
+MIG: 08:58:06 : 1
+MIG: 08:58:06 : 200000000
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  polarity_value: 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 : 
+MIG: 08:58:06 : cntrl:  memtype: DDR3
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 08:58:06 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 08:58:06 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 08:58:06 : 8
+MIG: 08:58:06 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 08:58:06 : 64
+MIG: 08:58:06 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 08:58:06 : 8
+MIG: 08:58:06 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 08:58:06 : 3
+MIG: 08:58:06 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 08:58:06 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: ECC ==> OFF
+MIG: 08:58:06 : 64
+MIG: 08:58:06 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 08:58:06 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 08:58:06 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 08:58:06 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 08:58:06 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 08:58:06 : 15
+MIG: 08:58:06 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 08:58:06 : 29
+MIG: 08:58:06 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 08:58:06 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 08:58:06 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 08:58:06 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 08:58:06 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 08:58:06 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 08:58:06 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 08:58:06 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 08:58:06 :  Invalid Param: DDR3_CL ==> 11
+MIG: 08:58:06 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 08:58:06 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 08:58:06 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 08:58:06 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 08:58:06 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 08:58:06 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 08:58:06 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 08:58:06 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 08:58:06 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 08:58:06 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 08:58:06 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 08:58:06 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 08:58:06 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 08:58:06 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 08:58:06 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 08:58:06 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 08:58:06 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 08:58:06 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 08:58:06 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 08:58:06 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 08:58:06 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 08:58:06 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 08:58:06 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 08:58:06 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 08:58:06 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 08:58:06 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 08:58:06 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 08:58:06 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 08:58:06 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 08:58:06 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 08:58:06 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 08:58:06 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 08:58:06 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 08:58:06 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 08:58:06 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 08:58:06 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 08:58:06 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 08:58:06 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 08:58:06 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 08:58:06 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 08:58:06 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 08:58:06 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 08:58:06 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 08:58:06 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 08:58:06 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 08:58:06 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 08:58:06 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 08:58:06 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 08:58:06 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 08:58:06 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 08:58:06 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 08:58:06 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 08:58:06 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 08:58:06 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 08:58:06 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 08:58:06 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 08:58:06 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 08:58:06 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 08:58:06 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 08:58:06 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 08:58:06 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 08:58:06 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 08:58:06 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 08:58:06 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 08:58:06 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 08:58:06 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 08:58:06 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 08:58:06 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 08:58:06 : 4
+MIG: 08:58:06 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 08:58:06 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 08:58:06 : 2147483648
+MIG: 08:58:06 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 08:58:06 : 31
+MIG: 08:58:06 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 08:58:06 : 512
+MIG: 08:58:06 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 08:58:06 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 08:58:06 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 08:58:06 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 08:58:06 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 08:58:06 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 08:58:06 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 08:58:06 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 08:58:06 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 08:58:06 : 
+MIG: 08:58:06 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 08:58:06 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 08:58:06 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 08:58:06 : 
+MIG: 08:58:06 : NONE
+MIG: 08:58:06 : 
+MIG: 08:58:06 : Same Interface
+MIG: 08:58:14 : Running customizer.xit
+MIG: 08:58:14 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 08:58:14 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 08:58:14 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:58:14 : outputDirectory: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 08:58:14 : vivado_mode: xpg_bd
+MIG: 08:58:14 :  locked false  
+MIG: 08:58:14 : HDL Language: Verilog
+MIG: 08:58:14 : compInfo: false
+MIG: 08:58:14 : Vivado Options xc7k325t ffg900 -2
+MIG: 08:58:14 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 08:58:14 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 08:58:14 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 08:58:14 : I am in catch area
+MIG: 08:58:14 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 09:01:29 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 09:01:29 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 09:01:29 : XML_INPUT_FILE: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 09:01:29 : Component_Name: design_1_mig_7series_0_0
+MIG: 09:01:29 : Moving design_1_mig_7series_0_0 ...
+MIG: 09:01:29 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 09:01:29 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 09:01:29 : Sending back 0
+MIG: 09:01:30 : xml_input_file: mig_b.prj
+MIG: 09:01:30 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 09:01:30 : xml_input_file: mig_b.prj
+MIG: 09:01:30 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 09:01:30 : In updateAllModelParams
+MIG: 09:01:30 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:01:30 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:01:30 : XGUI hdlLanguage: Verilog
+MIG: 09:01:30 : xgui vivado_mode: xpg_bd
+MIG: 09:01:30 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 09:01:30 : Reading F:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 09:01:31 : 
+MIG: 09:01:31 : Inside fn mem: DDR3
+MIG: 09:01:31 : detect_uiclk: 200000000
+MIG: 09:01:31 : cntrl:  memtype: DDR3
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 09:01:31 : 
+MIG: 09:01:31 : 
+MIG: 09:01:31 : 
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  polarity_value: 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 : 
+MIG: 09:01:31 : cntrl:  memtype: DDR3
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 09:01:31 : TRUE
+MIG: 09:01:31 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 09:01:31 : TRUE
+MIG: 09:01:31 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 09:01:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 09:01:31 : 50000000
+MIG: 09:01:31 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 4
+MIG: 09:01:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 09:01:31 : 200000000
+MIG: 09:01:31 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 200000000
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 09:01:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 09:01:31 : 800000000
+MIG: 09:01:31 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 09:01:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 09:01:31 : 800000000
+MIG: 09:01:31 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 09:01:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 09:01:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 09:01:31 : 800000000
+MIG: 09:01:31 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 09:01:31 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 09:01:31 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 09:01:31 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: ECC ==> OFF
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 09:01:31 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 09:01:31 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 09:01:31 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 09:01:31 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 09:01:31 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 09:01:31 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 09:01:31 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 09:01:31 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 09:01:31 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 09:01:31 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 09:01:31 :  Invalid Param: DDR3_CL ==> 11
+MIG: 09:01:31 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 09:01:31 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 09:01:31 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 09:01:31 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 09:01:31 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 09:01:31 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 09:01:31 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 4
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 09:01:31 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 09:01:31 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 09:01:31 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 09:01:31 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 09:01:31 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 09:01:31 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 09:01:31 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 09:01:31 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 09:01:31 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 09:01:31 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 09:01:31 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 09:01:31 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 09:01:31 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 09:01:31 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 09:01:31 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 09:01:31 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 09:01:31 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 09:01:31 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 09:01:31 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 09:01:31 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 09:01:31 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 09:01:31 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 09:01:31 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 09:01:31 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 09:01:31 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 09:01:31 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 09:01:31 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 09:01:31 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 09:01:31 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 09:01:31 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 09:01:31 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 09:01:31 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 09:01:31 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 09:01:31 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 09:01:31 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 09:01:31 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 09:01:31 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 09:01:31 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 09:01:31 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 09:01:31 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 09:01:31 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 09:01:31 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 09:01:31 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 09:01:31 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 09:01:31 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 09:01:31 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 09:01:31 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 09:01:31 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 09:01:31 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 09:01:31 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 09:01:31 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 09:01:31 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 09:01:31 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 09:01:31 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 09:01:31 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 09:01:31 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 09:01:31 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 09:01:31 : TRUE
+MIG: 09:01:31 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 09:01:31 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 09:01:31 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 09:01:31 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 09:01:31 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 09:01:31 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 09:01:31 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 09:01:31 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 09:01:31 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 09:01:31 : 
+MIG: 09:01:31 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 09:01:31 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 09:01:31 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 09:01:31 : NOBUF
+MIG: 09:01:31 : 
+MIG: 09:01:31 : 
+MIG: 09:01:31 : Same Interface
+MIG: 09:08:35 : Running customizer.xit
+MIG: 09:08:35 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 09:08:35 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 09:08:35 : synp_flow:  -- synthesis_mode: Other
+MIG: 09:08:35 : outputDirectory: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 09:08:35 : vivado_mode: xpg_bd
+MIG: 09:08:35 :  locked false  
+MIG: 09:08:35 : HDL Language: Verilog
+MIG: 09:08:35 : compInfo: false
+MIG: 09:08:35 : Vivado Options xc7k325t ffg900 -2
+MIG: 09:08:35 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 09:08:35 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 09:08:35 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 09:08:35 : I am in catch area
+MIG: 09:08:35 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 09:09:25 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 09:09:25 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 09:09:25 : XML_INPUT_FILE: j:/test_board/vivado/.Xil/Vivado-6808-MEI-PC/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 09:09:25 : Component_Name: design_1_mig_7series_0_0
+MIG: 09:09:25 : Moving design_1_mig_7series_0_0 ...
+MIG: 09:09:25 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 09:09:25 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 09:09:25 : Sending back 0
+MIG: 09:09:26 : xml_input_file: mig_a.prj
+MIG: 09:09:26 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 09:09:26 : xml_input_file: mig_a.prj
+MIG: 09:09:26 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 09:09:26 : In updateAllModelParams
+MIG: 09:09:26 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:09:26 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:09:26 : XGUI hdlLanguage: Verilog
+MIG: 09:09:26 : xgui vivado_mode: xpg_bd
+MIG: 09:09:26 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 09:09:26 : Reading F:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 09:09:27 : 
+MIG: 09:09:27 : Inside fn mem: DDR3
+MIG: 09:09:27 : detect_uiclk: 200000000
+MIG: 09:09:27 : cntrl:  memtype: DDR3
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  polarity_value: 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : cntrl:  memtype: DDR3
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 09:09:27 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 09:09:27 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 09:09:27 : 100000000
+MIG: 09:09:27 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 09:09:27 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 09:09:27 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 09:09:27 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 09:09:27 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 09:09:27 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 09:09:27 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 09:09:27 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: ECC ==> OFF
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 09:09:27 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 09:09:27 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 09:09:27 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 09:09:27 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 09:09:27 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 09:09:27 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 09:09:27 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 09:09:27 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 09:09:27 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 09:09:27 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 09:09:27 :  Invalid Param: DDR3_CL ==> 11
+MIG: 09:09:27 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 09:09:27 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 09:09:27 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 09:09:27 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 09:09:27 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 09:09:27 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 09:09:27 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 09:09:27 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 09:09:27 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 09:09:27 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 09:09:27 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 09:09:27 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 09:09:27 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 09:09:27 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 09:09:27 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 09:09:27 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 09:09:27 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 09:09:27 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 09:09:27 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 09:09:27 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 09:09:27 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 09:09:27 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 09:09:27 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 09:09:27 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 09:09:27 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 09:09:27 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 09:09:27 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 09:09:27 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 09:09:27 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 09:09:27 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 09:09:27 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 09:09:27 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 09:09:27 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 09:09:27 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 09:09:27 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 09:09:27 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 09:09:27 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 09:09:27 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 09:09:27 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 09:09:27 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 09:09:27 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 09:09:27 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 09:09:27 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 09:09:27 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 09:09:27 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 09:09:27 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 09:09:27 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 09:09:27 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 09:09:27 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 09:09:27 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 09:09:27 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 09:09:27 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 09:09:27 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 09:09:27 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 09:09:27 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 09:09:27 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 09:09:27 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 09:09:27 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 09:09:27 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 09:09:27 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 09:09:27 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 09:09:27 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 09:09:27 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 09:09:27 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 09:09:27 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 09:09:27 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 09:09:27 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 09:09:27 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 09:09:27 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 09:09:27 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 09:09:27 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 09:09:27 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 09:09:27 : 
+MIG: 09:09:27 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 09:09:27 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 09:09:27 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : 
+MIG: 09:09:27 : Same Interface
+MIG: 09:27:47 : Running synthesis.xit
+MIG: 09:27:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:27:47 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:27:47 : Running vlog_synth_rpr.xit
+MIG: 09:27:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:27:47 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:27:48 : Running simulation.xit
+MIG: 09:27:48 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:27:48 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:27:48 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 09:27:48 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:27:48 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 09:27:48 : Running implementation.xit
+MIG: 09:27:49 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 09:27:49 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:38:32 : xml_input_file: mig_a.prj
+MIG: 10:38:33 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 10:38:33 : xml_input_file: mig_a.prj
+MIG: 10:38:33 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 10:43:05 : Running synthesis.xit
+MIG: 10:43:05 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:43:05 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:43:06 : Running vlog_synth_rpr.xit
+MIG: 10:43:06 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:43:06 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:43:06 : Running simulation.xit
+MIG: 10:43:06 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:43:06 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:43:06 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 10:43:06 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:43:06 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:43:07 : Running implementation.xit
+MIG: 10:43:07 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:43:07 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:48:20 : Running customizer.xit
+MIG: 10:48:20 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 10:48:20 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: c:/Users/Mei/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4880-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 10:48:20 : synp_flow:  -- synthesis_mode: Other
+MIG: 10:48:20 : outputDirectory: c:/Users/Mei/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4880-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 10:48:20 : vivado_mode: xpg_bd
+MIG: 10:48:20 :  locked false  
+MIG: 10:48:20 : HDL Language: Verilog
+MIG: 10:48:20 : compInfo: false
+MIG: 10:48:20 : Vivado Options xc7k325t ffg900 -2
+MIG: 10:48:20 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 10:48:20 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 10:48:20 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 10:48:20 : I am in catch area
+MIG: 10:48:20 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp c:/Users/Mei/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4880-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out c:/Users/Mei/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4880-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 10:49:42 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 10:49:42 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 10:49:42 : XML_INPUT_FILE: c:/Users/Mei/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4880-MEI-PC/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 10:49:42 : Component_Name: design_1_mig_7series_0_0
+MIG: 10:49:42 : Moving design_1_mig_7series_0_0 ...
+MIG: 10:49:42 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 10:49:42 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 10:49:42 : Sending back 0
+MIG: 10:49:43 : xml_input_file: mig_b.prj
+MIG: 10:49:43 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 10:49:43 : xml_input_file: mig_b.prj
+MIG: 10:49:43 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 10:49:43 : In updateAllModelParams
+MIG: 10:49:43 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:49:43 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:49:43 : XGUI hdlLanguage: Verilog
+MIG: 10:49:43 : xgui vivado_mode: xpg_bd
+MIG: 10:49:43 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 10:49:43 : Reading F:/project/AV7325/microblaze_base/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 10:49:44 : 
+MIG: 10:49:44 : Inside fn mem: DDR3
+MIG: 10:49:44 : detect_uiclk: 200000000
+MIG: 10:49:44 : cntrl:  memtype: DDR3
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 10:49:44 : 
+MIG: 10:49:44 : 
+MIG: 10:49:44 : 
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  polarity_value: 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 : 
+MIG: 10:49:44 : cntrl:  memtype: DDR3
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 10:49:44 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 10:49:44 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 10:49:44 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 10:49:44 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 10:49:44 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 10:49:44 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 10:49:44 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 10:49:44 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 10:49:44 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: ECC ==> OFF
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 10:49:44 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 10:49:44 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 10:49:44 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 10:49:44 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 10:49:44 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 10:49:44 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 10:49:44 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 10:49:44 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 10:49:44 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 10:49:44 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 10:49:44 :  Invalid Param: DDR3_CL ==> 11
+MIG: 10:49:44 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 10:49:44 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 10:49:44 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 10:49:44 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 10:49:44 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 10:49:44 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 10:49:44 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 10:49:44 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 10:49:44 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 10:49:44 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 10:49:44 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 10:49:44 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 10:49:44 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 10:49:44 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 10:49:44 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 10:49:44 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 10:49:44 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 10:49:44 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 10:49:44 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 10:49:44 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 10:49:44 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 10:49:44 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 10:49:44 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 10:49:44 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 10:49:44 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 10:49:44 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 10:49:44 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 10:49:44 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 10:49:44 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 10:49:44 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 10:49:44 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 10:49:44 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 10:49:44 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 10:49:44 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 10:49:44 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 10:49:44 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 10:49:44 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 10:49:44 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 10:49:44 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 10:49:44 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 10:49:44 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 10:49:44 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 10:49:44 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 10:49:44 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 10:49:44 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 10:49:44 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 10:49:44 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 10:49:44 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 10:49:44 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 10:49:44 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 10:49:44 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 10:49:44 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 10:49:44 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 10:49:44 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 10:49:44 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 10:49:44 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 10:49:44 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 10:49:44 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 10:49:44 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 10:49:44 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 10:49:44 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 10:49:44 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 10:49:44 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 10:49:44 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 10:49:44 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 10:49:44 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 10:49:44 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 10:49:44 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 10:49:44 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 10:49:44 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 10:49:44 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 10:49:44 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 10:49:44 : 
+MIG: 10:49:44 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 10:49:44 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 10:49:44 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 10:49:44 : DIFF
+MIG: 10:49:44 : 
+MIG: 10:49:44 : 
+MIG: 10:49:44 : Same Interface
+MIG: 10:52:43 : Running synthesis.xit
+MIG: 10:52:43 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:52:43 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:52:44 : Running vlog_synth_rpr.xit
+MIG: 10:52:44 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:52:44 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:52:44 : Running simulation.xit
+MIG: 10:52:44 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:52:44 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:52:45 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 10:52:45 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:52:45 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 10:52:45 : Running implementation.xit
+MIG: 10:52:45 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:52:45 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:09:01 : xml_input_file: mig_b.prj
+MIG: 14:09:01 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 14:09:01 : xml_input_file: mig_b.prj
+MIG: 14:09:01 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 14:09:03 : Running customizer.xit
+MIG: 14:09:03 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 14:09:03 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 14:09:03 : synp_flow:  -- synthesis_mode: Other
+MIG: 14:09:03 : outputDirectory: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 14:09:03 : vivado_mode: xpg_bd
+MIG: 14:09:03 :  locked false  
+MIG: 14:09:03 : HDL Language: Verilog
+MIG: 14:09:03 : compInfo: false
+MIG: 14:09:03 : Vivado Options xc7k325t ffg900 -2
+MIG: 14:09:03 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 14:09:03 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 14:09:03 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 14:09:03 : I am in catch area
+MIG: 14:09:03 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 14:09:51 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 14:09:51 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 14:09:51 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 14:09:51 : Component_Name: design_1_mig_7series_0_0
+MIG: 14:09:51 : Moving design_1_mig_7series_0_0 ...
+MIG: 14:09:51 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 14:09:51 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 14:09:51 : Sending back 0
+MIG: 14:09:52 : xml_input_file: mig_a.prj
+MIG: 14:09:52 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 14:09:52 : xml_input_file: mig_a.prj
+MIG: 14:09:52 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 14:09:52 : In updateAllModelParams
+MIG: 14:09:52 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:09:52 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:09:52 : XGUI hdlLanguage: Verilog
+MIG: 14:09:52 : xgui vivado_mode: xpg_bd
+MIG: 14:09:52 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 14:09:52 : Reading F:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 14:09:53 : 
+MIG: 14:09:53 : Inside fn mem: DDR3
+MIG: 14:09:53 : detect_uiclk: 200000000
+MIG: 14:09:53 : cntrl:  memtype: DDR3
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 14:09:53 : 
+MIG: 14:09:53 : 
+MIG: 14:09:53 : 
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  polarity_value: 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 : 
+MIG: 14:09:53 : cntrl:  memtype: DDR3
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 14:09:53 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 14:09:53 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 14:09:53 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 14:09:53 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 14:09:53 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 14:09:53 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 14:09:53 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 14:09:53 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 14:09:53 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: ECC ==> OFF
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 14:09:53 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 14:09:53 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 14:09:53 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 14:09:53 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 14:09:53 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 14:09:53 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 14:09:53 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 14:09:53 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 14:09:53 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 14:09:53 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 14:09:53 :  Invalid Param: DDR3_CL ==> 11
+MIG: 14:09:53 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 14:09:53 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 14:09:53 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 14:09:53 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 14:09:53 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 14:09:53 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 14:09:53 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 14:09:53 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 14:09:53 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 14:09:53 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 14:09:53 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 14:09:53 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 14:09:53 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 14:09:53 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 14:09:53 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 14:09:53 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 14:09:53 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 14:09:53 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 14:09:53 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 14:09:53 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 14:09:53 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 14:09:53 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 14:09:53 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 14:09:53 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 14:09:53 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 14:09:53 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 14:09:53 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 14:09:53 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 14:09:53 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 14:09:53 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 14:09:53 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 14:09:53 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 14:09:53 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 14:09:53 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 14:09:53 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 14:09:53 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 14:09:53 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 14:09:53 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 14:09:53 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 14:09:53 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 14:09:53 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 14:09:53 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 14:09:53 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 14:09:53 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 14:09:53 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 14:09:53 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 14:09:53 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 14:09:53 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 14:09:53 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 14:09:53 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 14:09:53 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 14:09:53 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 14:09:53 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 14:09:53 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 14:09:53 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 14:09:53 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 14:09:53 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 14:09:53 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 14:09:53 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 14:09:53 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 14:09:53 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 14:09:53 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 14:09:53 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 14:09:53 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 14:09:53 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 14:09:53 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 14:09:53 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 14:09:53 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 14:09:53 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 14:09:53 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 14:09:53 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 14:09:53 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 14:09:53 : 
+MIG: 14:09:53 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 14:09:53 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 14:09:53 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 14:09:53 : NOBUF
+MIG: 14:09:53 : 
+MIG: 14:09:53 : 
+MIG: 14:09:53 : Same Interface
+MIG: 14:17:46 : Running synthesis.xit
+MIG: 14:17:46 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:17:46 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:17:46 : Running vlog_synth_rpr.xit
+MIG: 14:17:46 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:17:46 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:17:47 : Running simulation.xit
+MIG: 14:17:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:17:47 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:17:47 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 14:17:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:17:47 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 14:17:47 : Running implementation.xit
+MIG: 14:17:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 14:17:47 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:04:29 : Running customizer.xit
+MIG: 15:04:29 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 15:04:29 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 15:04:29 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:04:29 : outputDirectory: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 15:04:29 : vivado_mode: xpg_bd
+MIG: 15:04:29 :  locked false  
+MIG: 15:04:29 : HDL Language: Verilog
+MIG: 15:04:29 : compInfo: false
+MIG: 15:04:29 : Vivado Options xc7k325t ffg900 -2
+MIG: 15:04:29 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 15:04:29 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 15:04:29 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 15:04:29 : I am in catch area
+MIG: 15:04:29 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 15:05:11 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 15:05:11 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 15:05:11 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 15:05:11 : Component_Name: design_1_mig_7series_0_0
+MIG: 15:05:11 : Moving design_1_mig_7series_0_0 ...
+MIG: 15:05:12 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 15:05:12 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 15:05:12 : Sending back 0
+MIG: 15:05:12 : xml_input_file: mig_b.prj
+MIG: 15:05:12 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 15:05:12 : xml_input_file: mig_b.prj
+MIG: 15:05:12 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 15:05:12 : In updateAllModelParams
+MIG: 15:05:12 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:05:12 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:05:12 : XGUI hdlLanguage: Verilog
+MIG: 15:05:12 : xgui vivado_mode: xpg_bd
+MIG: 15:05:12 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 15:05:12 : Reading F:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 15:05:13 : 
+MIG: 15:05:13 : Inside fn mem: DDR3
+MIG: 15:05:13 : detect_uiclk: 200000000
+MIG: 15:05:13 : cntrl:  memtype: DDR3
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 15:05:13 : 
+MIG: 15:05:13 : 
+MIG: 15:05:13 : 
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  polarity_value: 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 : 
+MIG: 15:05:13 : cntrl:  memtype: DDR3
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 15:05:13 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 15:05:13 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 15:05:13 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 15:05:13 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 15:05:13 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 15:05:13 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 15:05:13 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 15:05:13 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 15:05:13 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 15:05:13 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 15:05:13 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: ECC ==> OFF
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 15:05:13 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 15:05:13 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 15:05:13 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 15:05:13 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 15:05:13 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 15:05:13 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 15:05:13 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 15:05:13 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 15:05:13 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 15:05:13 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 15:05:13 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 15:05:13 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 15:05:13 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 15:05:13 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 15:05:13 :  Invalid Param: DDR3_CL ==> 11
+MIG: 15:05:13 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 15:05:13 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 15:05:13 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 15:05:13 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 15:05:13 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 15:05:13 : 
+MIG: 15:05:13 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 15:05:13 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 15:05:13 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 15:05:14 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 15:05:14 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 15:05:14 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 15:05:14 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 15:05:14 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 15:05:14 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 15:05:14 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 15:05:14 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 15:05:14 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 15:05:14 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 15:05:14 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 15:05:14 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 15:05:14 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 15:05:14 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 15:05:14 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 15:05:14 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 15:05:14 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 15:05:14 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 15:05:14 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 15:05:14 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 15:05:14 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 15:05:14 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 15:05:14 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 15:05:14 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 15:05:14 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 15:05:14 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 15:05:14 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 15:05:14 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 15:05:14 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 15:05:14 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 15:05:14 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 15:05:14 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 15:05:14 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 15:05:14 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 15:05:14 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 15:05:14 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:05:14 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 15:05:14 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 15:05:14 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 15:05:14 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 15:05:14 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 15:05:14 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 15:05:14 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 15:05:14 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 15:05:14 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 15:05:14 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 15:05:14 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 15:05:14 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 15:05:14 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 15:05:14 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 15:05:14 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 15:05:14 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 15:05:14 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 15:05:14 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 15:05:14 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 15:05:14 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 15:05:14 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 15:05:14 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 15:05:14 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 15:05:14 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 15:05:14 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 15:05:14 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 15:05:14 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 15:05:14 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 15:05:14 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 15:05:14 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 15:05:14 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 15:05:14 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 15:05:14 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 15:05:14 : 
+MIG: 15:05:14 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 15:05:14 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 15:05:14 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 15:05:14 : DIFF
+MIG: 15:05:14 : 
+MIG: 15:05:14 : 
+MIG: 15:05:14 : Same Interface
+MIG: 15:06:49 : Running customizer.xit
+MIG: 15:06:49 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 15:06:49 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 15:06:49 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:06:49 : outputDirectory: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 15:06:49 : vivado_mode: xpg_bd
+MIG: 15:06:49 :  locked false  
+MIG: 15:06:49 : HDL Language: Verilog
+MIG: 15:06:49 : compInfo: false
+MIG: 15:06:49 : Vivado Options xc7k325t ffg900 -2
+MIG: 15:06:49 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 15:06:49 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 15:06:49 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 15:06:49 : I am in catch area
+MIG: 15:06:49 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 15:07:29 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 15:07:29 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 15:07:29 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 15:07:29 : Component_Name: design_1_mig_7series_0_0
+MIG: 15:07:29 : Moving design_1_mig_7series_0_0 ...
+MIG: 15:07:29 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 15:07:29 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 15:07:29 : Sending back 0
+MIG: 15:07:30 : xml_input_file: mig_a.prj
+MIG: 15:07:30 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 15:07:30 : xml_input_file: mig_a.prj
+MIG: 15:07:30 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 15:07:30 : In updateAllModelParams
+MIG: 15:07:30 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:07:30 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:07:30 : XGUI hdlLanguage: Verilog
+MIG: 15:07:30 : xgui vivado_mode: xpg_bd
+MIG: 15:07:30 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 15:07:30 : Reading F:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 15:07:31 : 
+MIG: 15:07:31 : Inside fn mem: DDR3
+MIG: 15:07:31 : detect_uiclk: 200000000
+MIG: 15:07:31 : cntrl:  memtype: DDR3
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 15:07:31 : 
+MIG: 15:07:31 : 
+MIG: 15:07:31 : 
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  polarity_value: 0
+MIG: 15:07:31 : ACTIVE_HIGH
+MIG: 15:07:31 : 
+MIG: 15:07:31 : cntrl:  memtype: DDR3
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 15:07:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 15:07:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 15:07:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 15:07:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 15:07:31 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 15:07:31 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 15:07:31 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 15:07:31 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 15:07:31 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: ECC ==> OFF
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 15:07:31 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 15:07:31 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 15:07:31 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 15:07:31 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 15:07:31 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 15:07:31 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 15:07:31 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 15:07:31 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 15:07:31 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 15:07:31 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 15:07:31 :  Invalid Param: DDR3_CL ==> 11
+MIG: 15:07:31 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 15:07:31 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 15:07:31 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 15:07:31 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 15:07:31 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 15:07:31 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 15:07:31 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 15:07:31 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 15:07:31 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 15:07:31 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 15:07:31 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 15:07:31 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 15:07:31 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 15:07:31 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 15:07:31 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 15:07:31 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 15:07:31 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 15:07:31 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 15:07:31 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 15:07:31 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 15:07:31 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 15:07:31 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 15:07:31 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 15:07:31 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 15:07:31 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 15:07:31 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 15:07:31 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 15:07:31 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 15:07:31 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 15:07:31 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 15:07:31 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 15:07:31 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 15:07:31 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 15:07:31 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 15:07:31 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 15:07:31 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 15:07:31 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 15:07:31 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 15:07:31 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:07:31 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 15:07:31 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 15:07:31 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 15:07:31 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 15:07:31 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 15:07:31 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 15:07:31 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 15:07:31 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 15:07:31 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 15:07:31 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 15:07:31 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 15:07:31 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 15:07:31 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 15:07:31 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 15:07:31 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 15:07:31 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 15:07:31 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 15:07:31 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 15:07:31 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 15:07:31 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 15:07:31 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 15:07:31 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 15:07:31 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 15:07:31 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 15:07:31 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 15:07:31 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 15:07:31 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 15:07:31 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 15:07:31 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 15:07:31 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 15:07:31 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 15:07:31 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 15:07:31 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 15:07:31 : 
+MIG: 15:07:31 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 15:07:31 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 15:07:31 :  Invalid Param: DDR3_RST_ACT_LOW ==> 0
+MIG: 15:07:31 : 
+MIG: 15:07:31 : 
+MIG: 15:07:31 : 
+MIG: 15:07:31 : Same Interface
+MIG: 15:10:16 : Running synthesis.xit
+MIG: 15:10:16 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:10:16 : ERR:     <SysResetPolarity>ACTIVE LOW</SysResetPolarity> <==>     <SysResetPolarity>ACTIVE HIGH</SysResetPolarity> 
+MIG: 15:10:16 : ################# RUNNING MIG BATCH ###################
+MIG: 15:10:16 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0
+MIG: 15:10:16 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:10:16 : outputDirectory: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/_tmp/
+MIG: 15:10:16 : vivado_mode: xpg_bd
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 1
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 : isPortInterface: 0
+MIG: 15:10:16 :  locked false  
+MIG: 15:10:16 : HDL Language: Verilog
+MIG: 15:10:16 : compInfo: false
+MIG: 15:10:16 : Vivado Options xc7k325t ffg900 -2
+MIG: 15:10:16 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 15:10:16 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 15:10:16 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 15:10:16 : I am in catch area
+MIG: 15:10:16 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 15:10:25 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 15:10:25 : Component_Name: design_1_mig_7series_0_0
+MIG: 15:10:25 : Moving design_1_mig_7series_0_0 ...
+MIG: 15:10:26 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 15:10:26 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 15:10:26 : Running vlog_synth_rpr.xit
+MIG: 15:10:26 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:10:26 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:10:26 : Running simulation.xit
+MIG: 15:10:26 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:10:26 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:10:27 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 15:10:27 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:10:27 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:10:27 : Running implementation.xit
+MIG: 15:10:27 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:10:27 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:20:37 : Running synthesis.xit
+MIG: 15:20:37 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:20:37 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:20:38 : Running vlog_synth_rpr.xit
+MIG: 15:20:38 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:20:38 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:20:38 : Running simulation.xit
+MIG: 15:20:38 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:20:38 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:20:38 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 15:20:39 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:20:39 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:20:39 : Running implementation.xit
+MIG: 15:20:39 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:20:39 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:42:03 : Running customizer.xit
+MIG: 17:42:03 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 17:42:03 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 17:42:03 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:42:03 : outputDirectory: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 17:42:03 : vivado_mode: xpg_bd
+MIG: 17:42:03 :  locked false  
+MIG: 17:42:03 : HDL Language: Verilog
+MIG: 17:42:03 : compInfo: false
+MIG: 17:42:03 : Vivado Options xc7k325t ffg900 -2
+MIG: 17:42:03 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 17:42:03 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 17:42:03 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 17:42:03 : I am in catch area
+MIG: 17:42:03 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 17:43:01 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 17:43:01 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 17:43:01 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 17:43:01 : Component_Name: design_1_mig_7series_0_0
+MIG: 17:43:01 : Moving design_1_mig_7series_0_0 ...
+MIG: 17:43:01 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 17:43:01 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 17:43:01 : Sending back 0
+MIG: 17:43:02 : xml_input_file: mig_b.prj
+MIG: 17:43:02 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 17:43:02 : xml_input_file: mig_b.prj
+MIG: 17:43:02 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_b.prj
+MIG: 17:43:02 : In updateAllModelParams
+MIG: 17:43:02 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:43:02 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:43:02 : XGUI hdlLanguage: Verilog
+MIG: 17:43:02 : xgui vivado_mode: xpg_bd
+MIG: 17:43:02 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 17:43:02 : Reading F:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 17:43:03 : 
+MIG: 17:43:03 : Inside fn mem: DDR3
+MIG: 17:43:03 : detect_uiclk: 200000000
+MIG: 17:43:03 : cntrl:  memtype: DDR3
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 17:43:03 : 
+MIG: 17:43:03 : 
+MIG: 17:43:03 : 
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  polarity_value: 1
+MIG: 17:43:03 : ACTIVE_LOW
+MIG: 17:43:03 : 
+MIG: 17:43:03 : cntrl:  memtype: DDR3
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 17:43:03 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 17:43:03 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 17:43:03 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 17:43:03 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 17:43:03 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 17:43:03 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 17:43:03 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 17:43:03 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 17:43:03 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: ECC ==> OFF
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 17:43:03 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 17:43:03 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 17:43:03 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 17:43:03 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 17:43:03 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 17:43:03 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 17:43:03 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 17:43:03 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 17:43:03 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 17:43:03 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 17:43:03 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 17:43:03 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 17:43:03 :  Invalid Param: DDR3_CL ==> 11
+MIG: 17:43:03 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 17:43:03 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 17:43:03 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 17:43:03 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 17:43:03 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 17:43:03 : 
+MIG: 17:43:03 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 17:43:03 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 17:43:03 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 17:43:03 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 17:43:03 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 17:43:03 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 17:43:03 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 17:43:03 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 17:43:03 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 17:43:03 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 17:43:03 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 17:43:03 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 17:43:03 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 17:43:03 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 17:43:03 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 17:43:03 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 17:43:03 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 17:43:03 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 17:43:03 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 17:43:03 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 17:43:03 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 17:43:03 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 17:43:03 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 17:43:03 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 17:43:03 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 17:43:03 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 17:43:03 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 17:43:03 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 17:43:03 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 17:43:03 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 17:43:03 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 17:43:03 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 17:43:03 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 17:43:03 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 17:43:03 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 17:43:03 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 17:43:03 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 17:43:03 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:03 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 17:43:04 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 17:43:04 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 17:43:04 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 17:43:04 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 17:43:04 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 17:43:04 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 17:43:04 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 17:43:04 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 17:43:04 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 17:43:04 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 17:43:04 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 17:43:04 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 17:43:04 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 17:43:04 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 17:43:04 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 17:43:04 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 17:43:04 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 17:43:04 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 17:43:04 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 17:43:04 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 17:43:04 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 17:43:04 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 17:43:04 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 17:43:04 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 17:43:04 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 17:43:04 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 17:43:04 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 17:43:04 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 17:43:04 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 1
+MIG: 17:43:04 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 17:43:04 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 17:43:04 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 17:43:04 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 17:43:04 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 17:43:04 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 17:43:04 : 
+MIG: 17:43:04 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 17:43:04 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 17:43:04 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 17:43:04 : 
+MIG: 17:43:04 : 
+MIG: 17:43:04 : 
+MIG: 17:43:04 : Same Interface
+MIG: 17:44:39 : Running customizer.xit
+MIG: 17:44:39 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 17:44:39 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0
+MIG: 17:44:39 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:44:39 : outputDirectory: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 17:44:39 : vivado_mode: xpg_bd
+MIG: 17:44:39 :  locked false  
+MIG: 17:44:39 : HDL Language: Verilog
+MIG: 17:44:39 : compInfo: false
+MIG: 17:44:39 : Vivado Options xc7k325t ffg900 -2
+MIG: 17:44:39 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 17:44:39 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 17:44:39 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 17:44:39 : I am in catch area
+MIG: 17:44:39 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 17:45:52 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 17:45:52 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 17:45:52 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/.Xil/Vivado-10400-MEI-PC/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 17:45:52 : Component_Name: design_1_mig_7series_0_0
+MIG: 17:45:52 : Moving design_1_mig_7series_0_0 ...
+MIG: 17:45:52 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 17:45:52 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 17:45:52 : Sending back 0
+MIG: 17:45:53 : xml_input_file: mig_a.prj
+MIG: 17:45:53 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 17:45:53 : xml_input_file: mig_a.prj
+MIG: 17:45:53 : Absolute path of xml_input_file: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 17:45:53 : In updateAllModelParams
+MIG: 17:45:53 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:45:53 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:45:53 : XGUI hdlLanguage: Verilog
+MIG: 17:45:53 : xgui vivado_mode: xpg_bd
+MIG: 17:45:53 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 17:45:53 : Reading F:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 17:45:54 : 
+MIG: 17:45:54 : Inside fn mem: DDR3
+MIG: 17:45:54 : detect_uiclk: 200000000
+MIG: 17:45:54 : cntrl:  memtype: DDR3
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  polarity_value: 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : cntrl:  memtype: DDR3
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_EN --- "TRUE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Enable Param: MMCM_CLKOUT0_EN ==> TRUE
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_EN --- "TRUE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Enable Param: MMCM_CLKOUT1_EN ==> TRUE
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_EN --- "FALSE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Enable Param: MMCM_CLKOUT2_EN ==> FALSE
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_EN --- "FALSE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Enable Param: MMCM_CLKOUT3_EN ==> FALSE
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_EN --- "FALSE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Enable Param: MMCM_CLKOUT4_EN ==> FALSE
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT0_DIVIDE --- 16.000
+MIG: 17:45:54 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT0_DIVIDE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Extra Param: MMCM_CLKOUT0_FREQ ==> 50000000
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT1_DIVIDE --- 8
+MIG: 17:45:54 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT1_DIVIDE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Extra Param: MMCM_CLKOUT1_FREQ ==> 100000000
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT2_DIVIDE --- 1
+MIG: 17:45:54 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT2_DIVIDE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Extra Param: MMCM_CLKOUT2_FREQ ==> 800000000
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT3_DIVIDE --- 1
+MIG: 17:45:54 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT3_DIVIDE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Extra Param: MMCM_CLKOUT3_FREQ ==> 800000000
+MIG: 17:45:54 : Prasad ----: isMMCMExtraClkParam:: MMCM_CLKOUT4_DIVIDE --- 1
+MIG: 17:45:54 : possibleMaxVcoVal:: 800 ---- paramName: MMCM_CLKOUT4_DIVIDE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  MMCM Extra Param: MMCM_CLKOUT4_FREQ ==> 800000000
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 17:45:54 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 6
+MIG: 17:45:54 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DM_WIDTH ==> 8
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DQ_WIDTH ==> 64
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DQS_WIDTH ==> 8
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 3
+MIG: 17:45:54 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: ECC ==> OFF
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DATA_WIDTH ==> 64
+MIG: 17:45:54 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 17:45:54 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 17:45:54 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 17:45:54 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 17:45:54 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 17:45:54 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 17:45:54 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 17:45:54 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 17:45:54 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 17:45:54 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 17:45:54 :  Invalid Param: DDR3_CL ==> 11
+MIG: 17:45:54 :  Invalid Param: DDR3_CWL ==> 8
+MIG: 17:45:54 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 17:45:54 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 17:45:54 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 17:45:54 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 5000
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 17:45:54 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 17:45:54 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_MULT_F ==> 4
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT0_EN ==> "TRUE"
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT1_EN ==> "TRUE"
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT2_EN ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT3_EN ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT4_EN ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT0_DIVIDE ==> 16.000
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT1_DIVIDE ==> 8
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT2_DIVIDE ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT3_DIVIDE ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_MMCM_CLKOUT4_DIVIDE ==> 1
+MIG: 17:45:54 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 17:45:54 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 17:45:54 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 17:45:54 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 17:45:54 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 17:45:54 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 17:45:54 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 17:45:54 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 17:45:54 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 17:45:54 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 17:45:54 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 17:45:54 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 17:45:54 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 17:45:54 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b1111
+MIG: 17:45:54 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 17:45:54 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b1111
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 17:45:54 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 17:45:54 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFDF_FFF_800_000
+MIG: 17:45:54 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h3FE_3FE_3FE_2FF
+MIG: 17:45:54 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_11
+MIG: 17:45:54 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11B_128_129_127_131_132_133_134_130_13A_13B_136_137_138_139
+MIG: 17:45:54 :  Invalid Param: DDR3_BANK_MAP ==> 36'h12A_12B_126
+MIG: 17:45:54 :  Invalid Param: DDR3_CAS_MAP ==> 12'h123
+MIG: 17:45:54 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 17:45:54 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_121
+MIG: 17:45:54 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_120
+MIG: 17:45:54 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_122
+MIG: 17:45:54 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 17:45:54 :  Invalid Param: DDR3_RAS_MAP ==> 12'h124
+MIG: 17:45:54 :  Invalid Param: DDR3_WE_MAP ==> 12'h125
+MIG: 17:45:54 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_03_01_02_00_20_23_22_21
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h211_218_212_216_213_217_214_219
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h222_224_226_223_229_225_228_227
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h239_237_233_234_235_236_232_238
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h206_202_204_203_207_205_201_209
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h006_001_002_000_009_005_003_004
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h028_022_024_021_027_023_026_025
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h013_017_012_015_018_016_014_019
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h034_036_033_032_031_038_035_037
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_039_011_029_007_200_231_221_215
+MIG: 17:45:54 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 17:45:54 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 17:45:54 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 17:45:54 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_BANK_TYPE ==> "HP_IO"
+MIG: 17:45:54 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HP_LP"
+MIG: 17:45:54 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 17:45:54 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 17:45:54 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 17:45:54 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 17:45:54 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 17:45:54 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 17:45:54 :  Invalid Param: DDR3_IDELAY_ADJ ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_FINE_PER_BIT ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 17:45:54 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 17:45:54 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "DIFFERENTIAL"
+MIG: 17:45:54 :  Invalid Param: DDR3_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 17:45:54 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 17:45:54 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 2
+MIG: 17:45:54 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 17:45:54 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 17:45:54 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 17:45:54 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 17:45:54 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "TRUE"
+MIG: 17:45:54 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 17:45:54 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 17:45:54 :  Invalid Param: DDR3_tCK ==> 1250
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 17:45:54 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "FALSE"
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: UI_EXTRA_CLOCKS ==> TRUE
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 512
+MIG: 17:45:54 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 17:45:54 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 17:45:54 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 17:45:54 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 17:45:54 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 17:45:54 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 17:45:54 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 17:45:54 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 17:45:54 : 
+MIG: 17:45:54 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 17:45:54 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 17:45:54 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : 
+MIG: 17:45:54 : Same Interface
+MIG: 17:47:11 : Running synthesis.xit
+MIG: 17:47:12 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:47:12 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:47:12 : Running vlog_synth_rpr.xit
+MIG: 17:47:12 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:47:12 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:47:12 : Running simulation.xit
+MIG: 17:47:12 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:47:12 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:47:13 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 17:47:13 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:47:13 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:47:13 : Running implementation.xit
+MIG: 17:47:13 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 17:47:13 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:11:07 : Running synthesis.xit
+MIG: 15:11:07 : ################# RUNNING MIG BATCH ###################
+MIG: 15:11:07 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: c:/Xilinx/Vivado/2017.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0
+MIG: 15:11:07 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:11:07 : outputDirectory: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/_tmp/
+MIG: 15:11:07 : vivado_mode: xpg_bd
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 1
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 : isPortInterface: 0
+MIG: 15:11:07 :  locked false  
+MIG: 15:11:07 : HDL Language: Verilog
+MIG: 15:11:07 : compInfo: false
+MIG: 15:11:07 : Vivado Options xc7k325t ffg900 -2
+MIG: 15:11:07 : 1: xc7k325t 2: ffg900 3: -2
+MIG: 15:11:07 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe
+MIG: 15:11:07 : xilinx_path: C:/Xilinx/Vivado/2017.4/ids_lite/ISE
+MIG: 15:11:07 : I am in catch area
+MIG: 15:11:07 : Running C:/Xilinx/Vivado/2017.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/nt64/mig.exe -cg_exc_inp f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 15:11:17 : XML_INPUT_FILE: f:/project/AV7325/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 15:11:17 : Component_Name: design_1_mig_7series_0_0
+MIG: 15:11:17 : Moving design_1_mig_7series_0_0 ...
+MIG: 15:11:17 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 15:11:17 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 15:11:17 : Running vlog_synth_rpr.xit
+MIG: 15:11:17 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:11:17 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:11:18 : Running simulation.xit
+MIG: 15:11:18 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:11:18 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:11:18 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 15:11:18 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:11:18 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:11:18 : Running implementation.xit
+MIG: 15:11:18 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 15:11:18 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 16:27:02 : xml_input_file: mig_a.prj
+MIG: 16:27:02 : Absolute path of xml_input_file: f:/xilinx_project/microblaze/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj
+MIG: 16:27:03 : xml_input_file: mig_a.prj
+MIG: 16:27:03 : Absolute path of xml_input_file: f:/xilinx_project/microblaze/microblaze_vdma/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/mig_a.prj

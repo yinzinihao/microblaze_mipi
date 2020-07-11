@@ -1,0 +1,168 @@
+{
+   DisplayTieOff: "1",
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port hdmi_i2c -pg 1 -y 930 -defaultsOSRD
+preplace port hdmi_out_hs -pg 1 -y 670 -defaultsOSRD
+preplace port sys -pg 1 -y 420 -defaultsOSRD
+preplace port hdmi_rst_n -pg 1 -y 110 -defaultsOSRD
+preplace port qspi_flash -pg 1 -y 230 -defaultsOSRD
+preplace port uart -pg 1 -y 800 -defaultsOSRD
+preplace port reset_n -pg 1 -y 440 -defaultsOSRD
+preplace port csi_rstn -pg 1 -y 1340 -defaultsOSRD
+preplace port mipi_phy_if_0 -pg 1 -y 1370 -defaultsOSRD
+preplace port hdmi_out_de -pg 1 -y 630 -defaultsOSRD
+preplace port mipi_phy_if_1 -pg 1 -y 1390 -defaultsOSRD
+preplace port hdmi_out_clk -pg 1 -y 610 -defaultsOSRD
+preplace port csi_i2c0 -pg 1 -y 1060 -defaultsOSRD
+preplace port csi_i2c1 -pg 1 -y 1190 -defaultsOSRD
+preplace port hdmi_out_vs -pg 1 -y 650 -defaultsOSRD
+preplace port ddr3 -pg 1 -y 370 -defaultsOSRD
+preplace portBus hdmi_out_data -pg 1 -y 690 -defaultsOSRD
+preplace inst camera_system|v_ccm_0 -pg 1 -lvl 4 -y 1536 -defaultsOSRD
+preplace inst rst_mig_7series_0_300M -pg 1 -lvl 2 -y 1670 -defaultsOSRD -resize 300 140
+preplace inst reset_io -pg 1 -lvl 7 -y 110 -defaultsOSRD
+preplace inst camera_system|v_ccm_1 -pg 1 -lvl 4 -y 1776 -defaultsOSRD
+preplace inst rst_mig_7series_0_100M -pg 1 -lvl 2 -y 1500 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 7 -y 950 -defaultsOSRD
+preplace inst camera_system|csi_4lane_raw10_0 -pg 1 -lvl 1 -y 1406 -defaultsOSRD
+preplace inst axi_iic_1 -pg 1 -lvl 7 -y 1080 -defaultsOSRD -resize 200 100
+preplace inst mig_7series_0 -pg 1 -lvl 7 -y 430 -defaultsOSRD
+preplace inst camera_system|csi_4lane_raw10_1 -pg 1 -lvl 1 -y 1696 -defaultsOSRD
+preplace inst axi_iic_2 -pg 1 -lvl 7 -y 1210 -defaultsOSRD -resize 200 100
+preplace inst axi_smc -pg 1 -lvl 6 -y 950 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 910 -defaultsOSRD
+preplace inst camera_system|axi_vdma_0 -pg 1 -lvl 7 -y 1346 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 4 -y 1170 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 3 -y 1580 -defaultsOSRD
+preplace inst camera_system|axi_vdma_1 -pg 1 -lvl 7 -y 1556 -defaultsOSRD
+preplace inst camera_system|scaler_0 -pg 1 -lvl 6 -y 1206 -defaultsOSRD
+preplace inst camera_system|scaler_1 -pg 1 -lvl 6 -y 1536 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 4 -y 520 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 4 -y 700 -defaultsOSRD
+preplace inst camera_system|axis_subset_converter_0 -pg 1 -lvl 5 -y 1226 -defaultsOSRD
+preplace inst display_system -pg 1 -lvl 7 -y 640 -defaultsOSRD
+preplace inst rst_mig_7series_0_200M -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 7 -y 810 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 5 -y 710 -defaultsOSRD
+preplace inst camera_system|AXI_BayerToRGB_0 -pg 1 -lvl 2 -y 1566 -defaultsOSRD
+preplace inst camera_system|axis_subset_converter_1 -pg 1 -lvl 5 -y 1376 -defaultsOSRD
+preplace inst camera_system|AXI_GammaCorrection_0 -pg 1 -lvl 3 -y 1416 -defaultsOSRD
+preplace inst csi_rst -pg 1 -lvl 7 -y 1340 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 1650 -defaultsOSRD
+preplace inst camera_system|xlconstant_0 -pg 1 -lvl 4 -y 1246 -defaultsOSRD
+preplace inst camera_system|AXI_GammaCorrection_1 -pg 1 -lvl 3 -y 1746 -defaultsOSRD
+preplace inst camera_system|AXI_BayerToRGB_1 -pg 1 -lvl 2 -y 1716 -defaultsOSRD
+preplace inst camera_system -pg 1 -lvl 5 -y 1286 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 6 -y 700 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 7 -y 250 -defaultsOSRD
+preplace netloc camera_system|microblaze_0_axi_periph_M14_AXI 1 0 7 1750J 1316 NJ 1316 2460J 1296 2860J 1306 NJ 1306 NJ 1306 3820
+preplace netloc camera_system|axis_subset_converter_0_M_AXIS 1 5 1 3400
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 3 4 1020J 810 NJ 810 NJ 810 6970
+preplace netloc microblaze_0_axi_periph_M16_AXI 1 3 4 1020J 1050 NJ 1050 4360J 1060 N
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 5 3 4440 40 NJ 40 7410
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 5 1 4390
+preplace netloc camera_system|axi_vdma_1_s2mm_introut 1 7 1 N
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 2 6 670 1930 NJ 1930 NJ 1930 NJ 1930 NJ 1930 7430
+preplace netloc mig_7series_0_DDR3 1 7 1 NJ
+preplace netloc camera_system|mipi_phy_if_0_1 1 0 1 N
+preplace netloc axi_timer_0_interrupt 1 2 3 690 1420 NJ 1420 1360
+preplace netloc camera_system|microblaze_0_axi_periph_M13_AXI 1 0 7 1750J 1286 NJ 1286 NJ 1286 2870J 1296 NJ 1296 NJ 1296 N
+preplace netloc camera_system|AXI_GammaCorrection_1_AXI_Stream_Master 1 3 1 N
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 3 4 990 220 NJ 220 NJ 220 NJ
+preplace netloc axi_quad_spi_0_SPI_0 1 7 1 NJ
+preplace netloc camera_system|AXI_BayerToRGB_1_AXI_Stream_Master 1 2 1 2460
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 5 1 4380
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 4 1030 800 NJ 800 4360J 790 NJ
+preplace netloc axi_smc_M00_AXI 1 6 1 6980
+preplace netloc axi_vdma_1_s2mm_introut 1 2 4 710 1910 NJ 1910 NJ 1910 4370
+preplace netloc axi_vdma_0_s2mm_introut 1 2 4 690 1950 NJ 1950 NJ 1950 4400
+preplace netloc camera_system|xlconstant_0_dout 1 4 1 3130
+preplace netloc axi_iic_0_IIC 1 7 1 NJ
+preplace netloc microblaze_0_dlmb_1 1 5 1 N
+preplace netloc microblaze_0_M_AXI_IC 1 5 1 4380
+preplace netloc microblaze_0_intc_axi 1 3 1 1000
+preplace netloc camera_system|microblaze_0_axi_periph_M11_AXI 1 0 6 NJ 1156 NJ 1156 NJ 1156 NJ 1156 NJ 1156 3420
+preplace netloc camera_system|microblaze_0_Clk 1 0 7 1750 1606 2100J 1636 NJ 1636 NJ 1636 NJ 1636 NJ 1636 3860
+preplace netloc microblaze_0_axi_periph_M17_AXI 1 3 4 1080J 1070 NJ 1070 NJ 1070 6980
+preplace netloc mipi_phy_if_1_1 1 0 5 NJ 1390 NJ 1390 NJ 1390 NJ 1390 1400J
+preplace netloc mig_7series_0_mmcm_locked 1 1 7 230 10 NJ 10 NJ 10 NJ 10 NJ 10 NJ 10 7420
+preplace netloc camera_system|axi_vdma_1_M_AXI_S2MM 1 7 1 4210
+preplace netloc camera_system|v_ccm_0_video_out 1 4 1 3120
+preplace netloc rst_mig_7series_0_200M_peripheral_reset 1 2 3 NJ 200 NJ 200 1430
+preplace netloc camera_system|axi_vdma_0_M_AXI_S2MM 1 7 1 N
+preplace netloc microblaze_0_axi_periph_M14_AXI 1 3 2 NJ 1020 1370
+preplace netloc camera_system|microblaze_0_axi_periph_M10_AXI 1 0 3 NJ 1276 NJ 1276 2470
+preplace netloc camera_system|v_ccm_1_video_out 1 4 1 3150
+preplace netloc camera_system|axi_vdma_0_s2mm_introut 1 7 1 4200
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 8 20 1720 210 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 7400
+preplace netloc microblaze_0_axi_periph_M12_AXI 1 3 2 NJ 980 1450
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 2 5 640 1410 1080 1410 1370 1900 4420J 1360 7020
+preplace netloc microblaze_0_ilmb_1 1 5 1 N
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 3 4 1030 830 NJ 830 NJ 830 7010J
+preplace netloc microblaze_0_interrupt 1 4 1 1370
+preplace netloc camera_system|mipi_phy_if_1_1 1 0 1 N
+preplace netloc camera_system|clk_wiz_0_clk_out1 1 0 7 1730 1496 2120 1496 2490 1316 2870 1316 3140 1136 3410 1376 3840
+preplace netloc mdm_1_debug_sys_rst 1 1 4 240 290 630J 280 NJ 280 1410
+preplace netloc mipi_phy_if_0_1 1 0 5 10J 1360 NJ 1360 630J 1370 1070J 1360 1370J
+preplace netloc mig_7series_0_ui_addn_clk_0 1 6 2 7030 30 7390
+preplace netloc axi_iic_0_iic2intc_irpt 1 2 6 700 1920 NJ 1920 NJ 1920 NJ 1920 NJ 1920 7360
+preplace netloc camera_system|axis_subset_converter_1_M_AXIS 1 5 1 3400
+preplace netloc sys_1 1 0 7 NJ 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc microblaze_0_axi_periph_M13_AXI 1 3 2 NJ 1000 1440
+preplace netloc rst_mig_7series_0_300M_peripheral_aresetn 1 2 3 660 1690 NJ 1690 1380
+preplace netloc reset_io_GPIO 1 7 1 NJ
+preplace netloc axi_uartlite_0_UART 1 7 1 NJ
+preplace netloc microblaze_0_Clk 1 1 7 220 450 660 450 1070 600 1410 620 4400 780 7030 880 7380
+preplace netloc camera_system|AXI_BayerToRGB_0_AXI_Stream_Master 1 2 1 2460
+preplace netloc camera_system|microblaze_0_axi_periph_M12_AXI 1 0 6 1730J 1146 NJ 1146 NJ 1146 NJ 1146 NJ 1146 3430
+preplace netloc reset_n_1 1 0 7 10J 430 NJ 430 NJ 430 NJ 430 NJ 430 NJ 430 7030J
+preplace netloc rst_mig_7series_0_200M_interconnect_aresetn 1 2 1 650
+preplace netloc camera_system|rst_1 1 0 1 1760
+preplace netloc camera_system|rst_mig_7series_0_300M_peripheral_aresetn 1 0 6 1740 1586 2110 1786 2480 1566 2860 1646 3160J 1566 3440
+preplace netloc Net 1 0 8 10 1460 230 1380 650 1380 1060 1380 1390 1890 4440J 1410 6990 1410 7370
+preplace netloc microblaze_0_axi_periph_M11_AXI 1 3 2 NJ 960 1480
+preplace netloc microblaze_0_axi_periph_M10_AXI 1 3 2 NJ 940 1470
+preplace netloc axi_dynclk_0_PXL_CLK_O 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M09_AXI 1 3 1 990
+preplace netloc microblaze_0_debug 1 4 1 1490
+preplace netloc rst_mig_7series_0_200M_bus_struct_reset 1 2 4 NJ 180 NJ 180 NJ 180 4430
+preplace netloc camera_system|rst_mig_7series_0_100M_peripheral_aresetn 1 0 7 1770J 1806 NJ 1806 2510 1616 NJ 1616 NJ 1616 NJ 1616 3850
+preplace netloc microblaze_0_axi_dp 1 2 4 690 290 NJ 290 NJ 290 4380
+preplace netloc rst_mig_7series_0_200M_mb_reset 1 2 3 NJ 160 1040 820 1450J
+preplace netloc rst_mig_7series_0_200M_peripheral_aresetn 1 2 5 640 410 1080 460 NJ 460 4420 460 NJ
+preplace netloc clk_wiz_0_locked 1 1 1 230
+preplace netloc camera_system|scaler_1_video_out 1 6 1 N
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 7 1 NJ
+preplace netloc v_axi4s_vid_out_0_vid_data 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 3 4 1010 580 NJ 580 NJ 580 NJ
+preplace netloc camera_system|csi_4lane_raw10_0_m_axis_video 1 1 1 2100
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 7 1 NJ
+preplace netloc axi_uartlite_0_interrupt 1 2 6 680 1940 NJ 1940 NJ 1940 NJ 1940 NJ 1940 7390
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 3 2 1020J 840 1490
+preplace netloc camera_system|microblaze_0_axi_periph_M04_AXI 1 0 3 NJ 1256 NJ 1256 2480
+preplace netloc camera_system|AXI_GammaCorrection_0_AXI_Stream_Master 1 3 1 2860
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 7 1 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 6 240 1400 690 1400 NJ 1400 1460 600 NJ 600 7000J
+preplace netloc camera_system|Net 1 0 7 NJ 1796 NJ 1796 2500 1626 NJ 1626 NJ 1626 NJ 1626 3830
+preplace netloc axi_iic_2_IIC 1 7 1 NJ
+preplace netloc axi_iic_1_IIC 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 3 4 N 880 1420J 610 NJ 610 7030J
+preplace netloc microblaze_0_M_AXI_DC 1 5 1 4410
+preplace netloc camera_system|scaler_0_video_out 1 6 1 3860
+preplace netloc microblaze_0_intr 1 3 1 1050
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 3 4 980 90 NJ 90 NJ 90 NJ
+preplace netloc microblaze_0_axi_periph_M15_AXI 1 3 4 NJ 1040 NJ 1040 4370J 1080 6970
+preplace netloc camera_system|csi_4lane_raw10_1_m_axis_video 1 1 1 N
+preplace netloc csi_rst_GPIO 1 7 1 NJ
+levelinfo -pg 1 -10 120 460 850 1240 1840 6827 7200 7450 -top 0 -bot 2370
+levelinfo -hier camera_system * 1940 2290 2690 3010 3280 3630 4030 *
+",
+}
+{
+   da_axi4_cnt: "40",
+   da_board_cnt: "12",
+   da_clkrst_cnt: "2",
+   da_mb_cnt: "2",
+}

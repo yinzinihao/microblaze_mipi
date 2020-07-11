@@ -1,0 +1,691 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jul 11 22:13:13 2020
+# Process ID: 9776
+# Current directory: F:/mipi/microblaze_mipi21/microblaze_mipi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9336 F:\mipi\microblaze_mipi21\microblaze_mipi\microblaze_base.xpr
+# Log file: F:/mipi/microblaze_mipi21/microblaze_mipi/vivado.log
+# Journal file: F:/mipi/microblaze_mipi21/microblaze_mipi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.xpr
+INFO: [Project 1-313] Project file moved from 'I:/NEW_214te/microblaze_mipi21/microblaze_mipi' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'J:/test_board/board_files'.
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'F:/mipi/microblaze/microblaze_vdma/microblaze_base.cache/ip', nor could it be found using path 'I:/NEW_214te/microblaze/microblaze_vdma/microblaze_base.cache/ip'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files', nor could it be found using path 'I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/mipi/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/VIVADO/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1038.160 ; gain = 322.457
+update_compile_order -fileset sources_1
+open_bd_design {F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_200M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - reset_io
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_300M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - csi_rst
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_1
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_2
+Adding cell -- digilentinc.com:user:AXI_BayerToRGB:1.3 - AXI_BayerToRGB_1
+Adding cell -- xilinx.com:hls:scaler:1.0 - scaler_0
+Adding cell -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_0
+Adding cell -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:hls:scaler:1.0 - scaler_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
+Adding cell -- xilinx.com:ip:v_ccm:6.0 - v_ccm_0
+Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_1
+Adding cell -- xilinx.com:ip:v_ccm:6.0 - v_ccm_1
+Adding cell -- digilentinc.com:user:AXI_BayerToRGB:1.3 - AXI_BayerToRGB_0
+Adding cell -- alinx.com.cn:user:csi_4lane_raw10:2.0 - csi_4lane_raw10_0
+Adding cell -- alinx.com.cn:user:csi_4lane_raw10:2.0 - csi_4lane_raw10_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Successfully read diagram <design_1> from BD file <F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1146.211 ; gain = 100.703
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project f:/mipi/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/VIVADO/Vivado/2017.4/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1166.160 ; gain = 6.969
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/mipi/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1199.004 ; gain = 39.813
+update_compile_order -fileset sources_1
+close_project
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project f:/mipi/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/VIVADO/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/mipi/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1246.488 ; gain = 28.180
+update_compile_order -fileset sources_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+launch_runs synth_1 -jobs 4
+[Sat Jul 11 22:25:07 2020] Launched synth_1...
+Run output will be captured here: f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path f:/mipi/microblaze_mipi21/microblaze_mipi/repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/mipi/microblaze_mipi21/microblaze_mipi/repo'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_csi_4lane_raw10_0_0 design_1_csi_4lane_raw10_0_1}] -log ip_upgrade.log
+Upgrading 'F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_0 (csi_4lane_raw10_v2_0 2.0) from revision 4 to revision 5
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_1 (csi_4lane_raw10_v2_0 2.0) from revision 4 to revision 5
+Wrote  : <F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'F:/mipi/microblaze_mipi21/microblaze_mipi/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {design_1_csi_4lane_raw10_0_0 design_1_csi_4lane_raw10_0_1}] -no_script -sync -force -quiet
+generate_target all [get_files  F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+xit::source_ipfile: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1397.516 ; gain = 81.012
+xit::source_ipfile: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1401.449 ; gain = 3.934
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/REF_CLK_I have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/PXL_CLK_O have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_axi_dynclk_0_0_PXL_CLK_O 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/s00_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+Wrote  : <F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block reset_io .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_300M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block csi_rst .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_16/design_1_auto_cc_16_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m17_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_15/design_1_auto_cc_15_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m16_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_14/design_1_auto_cc_14_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m15_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_13/design_1_auto_cc_13_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m14_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_12/design_1_auto_cc_12_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m13_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_11/design_1_auto_cc_11_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m12_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_10/design_1_auto_cc_10_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m11_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_9/design_1_auto_cc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_8/design_1_auto_cc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m09_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_7/design_1_auto_cc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_6/design_1_auto_cc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m07_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_5/design_1_auto_cc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_cc .
+Exporting to file F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:01:48 ; elapsed = 00:01:56 . Memory (MB): peak = 1784.719 ; gain = 524.688
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+get_param general.maxThreads 8
+ERROR: [Common 17-165] Too many positional options when parsing '8', please type 'get_param -help' for usage info.
+get_param general.maxThreads
+2
+set_param general.maxThreads 16
+ERROR: [Common 17-154] Value should be >= 1 and <= 8
+set_param general.maxThreads 8
+8
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/synth_1
+
+generate_target all [get_files  {F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd}]
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block reset_io .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_300M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block csi_rst .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m17_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m16_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m15_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m14_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m13_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m12_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m11_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m09_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m07_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block reset_io .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_0 .
+INFO: [Common 17-14] Message 'BD 41-1029' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File f:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+generate_target: Time (s): cpu = 00:12:49 ; elapsed = 00:12:42 . Memory (MB): peak = 8985.957 ; gain = 7186.191
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_simulation -of_objects [get_files F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir F:/mipi/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=F:/mipi/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

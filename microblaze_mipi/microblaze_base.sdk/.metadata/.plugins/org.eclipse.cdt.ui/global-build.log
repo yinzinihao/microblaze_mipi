@@ -1,0 +1,2027 @@
+17:53:39 **** Clean-only build of configuration Debug for project mipi_test ****
+make clean 
+rm -rf  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o  ./src/i2c/axi_i2c.d  ./src/dynclk/dynclk.d  ./src/display_ctrl/display_ctrl.d  ./src/cam_config.d ./src/display_demo.d ./src/vdma.d  mipi_test.elf.size  mipi_test.elf
+' '
+17:53:39 **** Clean-only build of project mipi_test_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/gpio_v4_3/src -s clean 
+make -C microblaze_0/libsrc/iic_v3_4/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/scaler_v1_0/src -s clean 
+rm: lstat‘*.o’失败: Invalid argument
+make[1]: *** [clean] 错误 1
+make: *** [microblaze_0/libsrc/scaler_v1_0/src/make.clean] 错误 2
+make -C microblaze_0/libsrc/spi_v4_3/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_5/src -s clean 
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+make -C microblaze_0/libsrc/vtc_v7_2/src -s clean 
+make: 由于错误目标“clean”并未重新创建。
+17:53:41 **** Build of project mipi_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axivdma"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling scaler"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video timing controller"
+'Finished building libraries'
+17:53:59 **** Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/i2c/axi_i2c.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c/axi_i2c.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c/axi_i2c.d" -MT"src/i2c/axi_i2c.o" -o "src/i2c/axi_i2c.o" "../src/i2c/axi_i2c.c"
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_read':
+../src/i2c/axi_i2c.c:79:15: warning: variable 'ReceivedByteCount' set but not used [-Wunused-but-set-variable]
+  unsigned int ReceivedByteCount;
+               ^~~~~~~~~~~~~~~~~
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_write':
+../src/i2c/axi_i2c.c:70:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+'Finished building: ../src/i2c/axi_i2c.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/cam_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cam_config.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cam_config.d" -MT"src/cam_config.o" -o "src/cam_config.o" "../src/cam_config.c"
+../src/cam_config.c: In function 'sensor_write_array':
+../src/cam_config.c:569:7: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+       usleep(regarray[i].val*1000);
+       ^~~~~~
+../src/cam_config.c:570:6: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+../src/cam_config.c:572:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
+   i++;
+   ^
+'Finished building: ../src/cam_config.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'DemoPrintTest':
+../src/display_demo.c:207:36: error: 'gImage_pic_800_600' undeclared (first use in this function)
+     frame[xcoi + iPixelAddr + 0] = gImage_pic_800_600[pic_number++];
+                                    ^~~~~~~~~~~~~~~~~~
+../src/display_demo.c:207:36: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] 错误 1
+17:54:44 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1492144	   2180	18668524	20162848	133a920	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+17:54:57 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+17:57:27 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1492252	   2180	18668528	20162960	133a990	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+17:57:38 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:02:17 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1492208	   2180	18668524	20162912	133a960	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:02:27 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:03:30 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:170:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:171:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31616	   1140	18668460	18701216	11d5ba0	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:03:39 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:05:28 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:162:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:163:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30712	   1140	18668460	18700312	11d5818	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:06:16 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:162:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:163:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:06:32 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:161:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:162:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:06:52 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:154:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:155:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:07:02 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:153:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:154:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:07:13 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:07:55 **** Clean-only build of configuration Debug for project mipi_test ****
+make clean 
+rm -rf  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o  ./src/i2c/axi_i2c.d  ./src/dynclk/dynclk.d  ./src/display_ctrl/display_ctrl.d  ./src/cam_config.d ./src/display_demo.d ./src/vdma.d  mipi_test.elf.size  mipi_test.elf
+' '
+18:07:56 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/i2c/axi_i2c.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c/axi_i2c.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c/axi_i2c.d" -MT"src/i2c/axi_i2c.o" -o "src/i2c/axi_i2c.o" "../src/i2c/axi_i2c.c"
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_read':
+../src/i2c/axi_i2c.c:79:15: warning: variable 'ReceivedByteCount' set but not used [-Wunused-but-set-variable]
+  unsigned int ReceivedByteCount;
+               ^~~~~~~~~~~~~~~~~
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_write':
+../src/i2c/axi_i2c.c:70:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+'Finished building: ../src/i2c/axi_i2c.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/cam_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cam_config.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cam_config.d" -MT"src/cam_config.o" -o "src/cam_config.o" "../src/cam_config.c"
+../src/cam_config.c: In function 'sensor_write_array':
+../src/cam_config.c:569:7: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+       usleep(regarray[i].val*1000);
+       ^~~~~~
+../src/cam_config.c:570:6: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+../src/cam_config.c:572:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
+   i++;
+   ^
+'Finished building: ../src/cam_config.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c:28:25: fatal error: pic_800_600.h: No such file or directory
+ #include "pic_800_600.h"
+                         ^
+compilation terminated.
+make: *** [src/display_demo.o] 错误 1
+18:08:05 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:151:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:152:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:08:42 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:147:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:148:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:08:47 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:146:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:147:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:08:52 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:49:08 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30664	   1140	18668460	18700264	11d57e8	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:49:29 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:163:8: warning: unused variable 'focus' [-Wunused-variable]
+  short focus=0;
+        ^~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30580	   1140	18668464	18700184	11d5798	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:49:32 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:52:32 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:163:8: warning: unused variable 'focus' [-Wunused-variable]
+  short focus=0;
+        ^~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30580	   1140	18668464	18700184	11d5798	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:52:43 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:163:8: warning: unused variable 'focus' [-Wunused-variable]
+  short focus=0;
+        ^~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30580	   1140	18668464	18700184	11d5798	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:52:45 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:52:59 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30576	   1140	18668460	18700176	11d5790	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+18:53:01 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+18:53:36 **** Build of project bootloader_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axivdma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling scaler"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling XilIsf Library"
+xilisf.c: In function 'XIsf_WriteEnable':
+xilisf.c:1049:7: warning: unused variable 'NULLPtr' [-Wunused-variable]
+  u8 * NULLPtr = NULL;
+       ^~~~~~~
+xilisf.c:1048:5: warning: unused variable 'WriteEnableBuf' [-Wunused-variable]
+  u8 WriteEnableBuf[1] = {0};
+     ^~~~~~~~~~~~~~
+xilisf.c:1047:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf.c:1044:28: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ int XIsf_WriteEnable(XIsf *InstancePtr, u8 WriteEnable)
+                            ^~~~~~~~~~~
+xilisf.c:1044:44: warning: unused parameter 'WriteEnable' [-Wunused-parameter]
+ int XIsf_WriteEnable(XIsf *InstancePtr, u8 WriteEnable)
+                                            ^~~~~~~~~~~
+xilisf.c: In function 'XIsf_Ioctl':
+xilisf.c:1153:6: warning: unused variable 'NULLPtr' [-Wunused-variable]
+  u8* NULLPtr = NULL;
+      ^~~~~~~
+xilisf.c:1152:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf.c:1149:22: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ int XIsf_Ioctl(XIsf *InstancePtr, XIsf_IoctlOperation Operation)
+                      ^~~~~~~~~~~
+xilisf.c:1149:55: warning: unused parameter 'Operation' [-Wunused-parameter]
+ int XIsf_Ioctl(XIsf *InstancePtr, XIsf_IoctlOperation Operation)
+                                                       ^~~~~~~~~
+xilisf.c: In function 'XIsf_RegisterInterface':
+xilisf.c:1363:37: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetOptions = XSpi_SetOptions;
+                                     ^
+xilisf.c:1364:41: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetSlaveSelect = XSpi_SetSlaveSelect;
+                                         ^
+xilisf.c:1365:35: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_Transfer = XSpi_Transfer;
+                                   ^
+xilisf.c: In function 'GetRealAddr':
+xilisf.c:2170:6: warning: unused variable 'LqspiCr' [-Wunused-variable]
+  u32 LqspiCr;
+      ^~~~~~~
+xilisf.c:2168:29: warning: unused parameter 'QspiPtr' [-Wunused-parameter]
+ u32 GetRealAddr(XIsf_Iface *QspiPtr, u32 Address)
+                             ^~~~~~~
+At top level:
+xilisf.c:538:12: warning: 'XIsf_FCTIndex' defined but not used [-Wunused-variable]
+ static u32 XIsf_FCTIndex;
+            ^~~~~~~~~~~~~
+xilisf_erase.c: In function 'SectorErase':
+xilisf_erase.c:322:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:322:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:321:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:320:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:319:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:318:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:317:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:314:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:313:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_erase.c: In function 'SubSectorErase':
+xilisf_erase.c:566:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:566:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:565:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:564:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:563:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:562:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:561:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:560:6: warning: unused variable 'NULLPtr' [-Wunused-variable]
+  u8* NULLPtr = NULL;
+      ^~~~~~~
+xilisf_erase.c:559:6: warning: unused variable 'RealAddr' [-Wunused-variable]
+  u32 RealAddr;
+      ^~~~~~~~
+xilisf_erase.c:558:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:557:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_erase.c:554:50: warning: unused parameter 'Address' [-Wunused-parameter]
+ static int SubSectorErase(XIsf *InstancePtr, u32 Address)
+                                                  ^~~~~~~
+xilisf_erase.c: In function 'BulkErase':
+xilisf_erase.c:798:6: warning: unused variable 'NULLPtr' [-Wunused-variable]
+  u8* NULLPtr = NULL;
+      ^~~~~~~
+xilisf_erase.c:795:28: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static int BulkErase(XIsf *InstancePtr)
+                            ^~~~~~~~~~~
+xilisf_read.c: In function 'ReadData':
+xilisf_read.c:434:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:430:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:429:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:425:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:424:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_read.c: In function 'FastReadData':
+xilisf_read.c:660:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:656:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:655:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:652:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:649:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_spr.c: In function 'SprRead':
+xilisf_spr.c:210:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(Index = 1; Index < (InstancePtr->NumOfSectors +
+                       ^
+xilisf_spr.c: In function 'SprProgram':
+xilisf_spr.c:270:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(Index = 4; Index < (InstancePtr->NumOfSectors +
+                       ^
+xilisf_write.c: In function 'WriteData':
+xilisf_write.c:451:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_write.c:450:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_write.c:438:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_write.c:437:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_write.c:434:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_write.c:432:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_write.c: In function 'WriteSR':
+xilisf_write.c:991:26: warning: unused parameter 'InstancePtr' [-Wunused-parameter]
+ static int WriteSR(XIsf *InstancePtr, u8 SRData)
+                          ^~~~~~~~~~~
+xilisf_write.c:991:42: warning: unused parameter 'SRData' [-Wunused-parameter]
+ static int WriteSR(XIsf *InstancePtr, u8 SRData)
+                                          ^~~~~~
+'Finished building libraries'
+18:53:55 **** Build of configuration Debug for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:37:0:
+../src/blconfig.h:32:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+ #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+  ^~~~~~~
+../src/bootloader.c:56:2: warning: #warning "Set your Device ID here, as defined in xparameters.h" [-Wcpp]
+ #warning "Set your Device ID here, as defined in xparameters.h"
+  ^~~~~~~
+../src/bootloader.c:135:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:202:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c:205:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:289:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:328:6: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+      IsfWaitForFlashNotBusy();
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:334:28: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+'Finished building: ../src/bootloader.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/srec.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/srec.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/srec.d" -MT"src/srec.o" -o "src/srec.o" "../src/srec.c"
+'Finished building: ../src/srec.c'
+' '
+'Building target: bootloader.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bootloader_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "bootloader.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bootloader.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bootloader.elf  |tee "bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12256	    312	   1928	  14496	   38a0	bootloader.elf
+'Finished building: bootloader.elf.size'
+' '
+18:54:00 **** Auto Build of configuration Debug for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:37:0:
+../src/blconfig.h:32:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+ #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+  ^~~~~~~
+../src/bootloader.c:56:2: warning: #warning "Set your Device ID here, as defined in xparameters.h" [-Wcpp]
+ #warning "Set your Device ID here, as defined in xparameters.h"
+  ^~~~~~~
+../src/bootloader.c:135:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:202:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c:205:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:289:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:328:6: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+      IsfWaitForFlashNotBusy();
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:334:28: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+'Finished building: ../src/bootloader.c'
+' '
+'Building target: bootloader.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bootloader_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "bootloader.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bootloader.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bootloader.elf  |tee "bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12256	    312	   1928	  14496	   38a0	bootloader.elf
+'Finished building: bootloader.elf.size'
+' '
+18:54:17 **** Clean-only build of configuration Debug for project bootloader ****
+make clean 
+rm -rf  ./src/bootloader.o ./src/platform.o ./src/srec.o  ./src/bootloader.d ./src/platform.d ./src/srec.d  bootloader.elf.size  bootloader.elf
+' '
+18:54:18 **** Auto Build of configuration Debug for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:37:0:
+../src/blconfig.h:32:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+ #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+  ^~~~~~~
+../src/bootloader.c:56:2: warning: #warning "Set your Device ID here, as defined in xparameters.h" [-Wcpp]
+ #warning "Set your Device ID here, as defined in xparameters.h"
+  ^~~~~~~
+../src/bootloader.c:135:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:202:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c:205:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:289:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:328:6: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+      IsfWaitForFlashNotBusy();
+      ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:334:28: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+'Finished building: ../src/bootloader.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/srec.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/srec.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/srec.d" -MT"src/srec.o" -o "src/srec.o" "../src/srec.c"
+'Finished building: ../src/srec.c'
+' '
+'Building target: bootloader.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bootloader_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "bootloader.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bootloader.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bootloader.elf  |tee "bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10636	    292	   1936	  12864	   3240	bootloader.elf
+'Finished building: bootloader.elf.size'
+' '
+18:54:36 **** Auto Build of project bootloader_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axivdma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling scaler"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling XilIsf Library"
+xilisf.c: In function 'XIsf_RegisterInterface':
+xilisf.c:1363:37: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetOptions = XSpi_SetOptions;
+                                     ^
+xilisf.c:1364:41: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetSlaveSelect = XSpi_SetSlaveSelect;
+                                         ^
+xilisf.c:1365:35: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_Transfer = XSpi_Transfer;
+                                   ^
+xilisf.c: In function 'GetRealAddr':
+xilisf.c:2170:6: warning: unused variable 'LqspiCr' [-Wunused-variable]
+  u32 LqspiCr;
+      ^~~~~~~
+xilisf.c:2168:29: warning: unused parameter 'QspiPtr' [-Wunused-parameter]
+ u32 GetRealAddr(XIsf_Iface *QspiPtr, u32 Address)
+                             ^~~~~~~
+At top level:
+xilisf.c:538:12: warning: 'XIsf_FCTIndex' defined but not used [-Wunused-variable]
+ static u32 XIsf_FCTIndex;
+            ^~~~~~~~~~~~~
+xilisf_erase.c: In function 'SectorErase':
+xilisf_erase.c:322:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:322:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:321:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:320:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:319:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:318:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:317:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:314:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:313:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_erase.c: In function 'SubSectorErase':
+xilisf_erase.c:566:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:566:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:565:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:564:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:563:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:562:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:561:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:558:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:557:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_read.c: In function 'ReadData':
+xilisf_read.c:434:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:430:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:429:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:425:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:424:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_read.c: In function 'FastReadData':
+xilisf_read.c:660:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:656:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:655:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:652:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:649:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_write.c: In function 'WriteData':
+xilisf_write.c:451:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_write.c:450:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_write.c:438:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_write.c:437:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_write.c:434:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_write.c:432:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+'Finished building libraries'
+18:54:54 **** Auto Build of configuration Debug for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:37:0:
+../src/blconfig.h:32:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+ #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+  ^~~~~~~
+../src/bootloader.c:56:2: warning: #warning "Set your Device ID here, as defined in xparameters.h" [-Wcpp]
+ #warning "Set your Device ID here, as defined in xparameters.h"
+  ^~~~~~~
+../src/bootloader.c:135:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:202:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c:205:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+c:\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:289:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:309:13: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+    Status = IsfWaitForFlashNotBusy();
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:334:28: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+'Finished building: ../src/bootloader.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: bootloader.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bootloader_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "bootloader.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bootloader.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bootloader.elf  |tee "bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11624	    292	   1932	  13848	   3618	bootloader.elf
+'Finished building: bootloader.elf.size'
+' '
+16:45:55 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/cam_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cam_config.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cam_config.d" -MT"src/cam_config.o" -o "src/cam_config.o" "../src/cam_config.c"
+../src/cam_config.c: In function 'sensor_write_array':
+../src/cam_config.c:569:7: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+       usleep(regarray[i].val*1000);
+       ^~~~~~
+../src/cam_config.c:570:6: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+../src/cam_config.c:572:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
+   i++;
+   ^
+'Finished building: ../src/cam_config.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30576	   1140	18668460	18700176	11d5790	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+16:47:10 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+16:48:35 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30576	   1140	18668460	18700176	11d5790	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+16:48:39 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+20:09:12 **** Auto Build of project mipi_test_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axivdma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling scaler"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video timing controller"
+'Finished building libraries'
+20:09:23 **** Auto Build of configuration Debug for project mipi_test ****
+make all 
+'Building file: ../src/i2c/axi_i2c.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c/axi_i2c.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c/axi_i2c.d" -MT"src/i2c/axi_i2c.o" -o "src/i2c/axi_i2c.o" "../src/i2c/axi_i2c.c"
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_read':
+../src/i2c/axi_i2c.c:79:15: warning: variable 'ReceivedByteCount' set but not used [-Wunused-but-set-variable]
+  unsigned int ReceivedByteCount;
+               ^~~~~~~~~~~~~~~~~
+../src/i2c/axi_i2c.c: In function 'i2c_reg16_write':
+../src/i2c/axi_i2c.c:70:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+'Finished building: ../src/i2c/axi_i2c.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/cam_config.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cam_config.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cam_config.d" -MT"src/cam_config.o" -o "src/cam_config.o" "../src/cam_config.c"
+../src/cam_config.c: In function 'sensor_write_array':
+../src/cam_config.c:569:7: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+       usleep(regarray[i].val*1000);
+       ^~~~~~
+../src/cam_config.c:570:6: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+      else
+      ^~~~
+../src/cam_config.c:572:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
+   i++;
+   ^
+'Finished building: ../src/cam_config.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:157:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_0_DEVICE_ID,960 * 3,1080,1920 * 3,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                                ^~~~~~~~
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+../src/display_demo.c:158:80: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast [-Wint-conversion]
+  vdma_write_init(XPAR_CAMERA_SYSTEM_AXI_VDMA_1_DEVICE_ID,960 * 3,1080,1920 * 3,(dispCtrl.framePtr[dispCtrl.curFrame]+960 * 3));
+                                                                                ^
+In file included from ../src/display_demo.c:20:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 * {aka unsigned char *}'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^~~~~~~~~~~~~~~
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -I../../mipi_test_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building target: mipi_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mipi_test_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "mipi_test.elf"  ./src/i2c/axi_i2c.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/cam_config.o ./src/display_demo.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mipi_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mipi_test.elf  |tee "mipi_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30576	   1140	18668460	18700176	11d5790	mipi_test.elf
+'Finished building: mipi_test.elf.size'
+' '
+20:26:36 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+19:08:20 **** Auto Build of project bootloader_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axivdma_v6_4/src"
+make -C microblaze_0/libsrc/axivdma_v6_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axivdma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/scaler_v1_0/src"
+make -C microblaze_0/libsrc/scaler_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling scaler"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/vtc_v7_2/src"
+make -C microblaze_0/libsrc/vtc_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling video timing controller"
+"Running Make libs in microblaze_0/libsrc/xilisf_v5_9/src"
+make -C microblaze_0/libsrc/xilisf_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling XilIsf Library"
+xilisf.c: In function 'XIsf_RegisterInterface':
+xilisf.c:1363:37: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetOptions = XSpi_SetOptions;
+                                     ^
+xilisf.c:1364:41: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_SetSlaveSelect = XSpi_SetSlaveSelect;
+                                         ^
+xilisf.c:1365:35: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  InstancePtr->XIsf_Iface_Transfer = XSpi_Transfer;
+                                   ^
+xilisf.c: In function 'GetRealAddr':
+xilisf.c:2170:6: warning: unused variable 'LqspiCr' [-Wunused-variable]
+  u32 LqspiCr;
+      ^~~~~~~
+xilisf.c:2168:29: warning: unused parameter 'QspiPtr' [-Wunused-parameter]
+ u32 GetRealAddr(XIsf_Iface *QspiPtr, u32 Address)
+                             ^~~~~~~
+At top level:
+xilisf.c:538:12: warning: 'XIsf_FCTIndex' defined but not used [-Wunused-variable]
+ static u32 XIsf_FCTIndex;
+            ^~~~~~~~~~~~~
+xilisf_erase.c: In function 'SectorErase':
+xilisf_erase.c:322:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:322:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:321:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:320:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:319:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:318:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:317:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:314:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:313:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_erase.c: In function 'SubSectorErase':
+xilisf_erase.c:566:14: warning: unused variable 'ReadStatusCmd' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+              ^~~~~~~~~~~~~
+xilisf_erase.c:566:5: warning: unused variable 'FSRFlag' [-Wunused-variable]
+  u8 FSRFlag, ReadStatusCmd;
+     ^~~~~~~
+xilisf_erase.c:565:6: warning: unused variable 'WriteBfrPtr' [-Wunused-variable]
+  u8 *WriteBfrPtr = InstancePtr->WriteBufPtr;
+      ^~~~~~~~~~~
+xilisf_erase.c:564:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_erase.c:563:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_erase.c:562:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_erase.c:561:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_erase.c:558:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_erase.c:557:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_read.c: In function 'ReadData':
+xilisf_read.c:434:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:430:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:429:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:425:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:424:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_read.c: In function 'FastReadData':
+xilisf_read.c:660:6: warning: unused variable 'TempByteCnt' [-Wunused-variable]
+  u32 TempByteCnt = LocalByteCnt;
+      ^~~~~~~~~~~
+xilisf_read.c:656:5: warning: unused variable 'ShiftSize' [-Wunused-variable]
+  u8 ShiftSize;
+     ^~~~~~~~~
+xilisf_read.c:655:6: warning: unused variable 'BufferIndex' [-Wunused-variable]
+  u32 BufferIndex;
+      ^~~~~~~~~~~
+xilisf_read.c:652:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_read.c:649:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+xilisf_write.c: In function 'WriteData':
+xilisf_write.c:451:5: warning: unused variable 'ReadFlagSRCmd' [-Wunused-variable]
+  u8 ReadFlagSRCmd[] = {READ_FLAG_STATUS_CMD, 0};
+     ^~~~~~~~~~~~~
+xilisf_write.c:450:5: warning: unused variable 'ReadStatusCmdBuf' [-Wunused-variable]
+  u8 ReadStatusCmdBuf[] = { READ_STATUS_CMD, 0 };
+     ^~~~~~~~~~~~~~~~
+xilisf_write.c:438:5: warning: unused variable 'FlashStatus' [-Wunused-variable]
+  u8 FlashStatus[2] = {0};
+     ^~~~~~~~~~~
+xilisf_write.c:437:5: warning: unused variable 'FlagStatus' [-Wunused-variable]
+  u8 FlagStatus[2] = {0};
+     ^~~~~~~~~~
+xilisf_write.c:434:6: warning: unused variable 'BankSel' [-Wunused-variable]
+  u32 BankSel;
+      ^~~~~~~
+xilisf_write.c:432:5: warning: unused variable 'Mode' [-Wunused-variable]
+  u8 Mode;
+     ^~~~
+'Finished building libraries'
+19:08:40 **** Clean-only build of configuration Debug for project bootloader ****
+make clean 
+rm -rf  ./src/bootloader.o ./src/platform.o ./src/srec.o  ./src/bootloader.d ./src/platform.d ./src/srec.d  bootloader.elf.size  bootloader.elf
+' '
+19:08:40 **** Auto Build of configuration Debug for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/bootloader.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:37:0:
+../src/blconfig.h:32:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+ #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+  ^~~~~~~
+../src/bootloader.c:56:2: warning: #warning "Set your Device ID here, as defined in xparameters.h" [-Wcpp]
+ #warning "Set your Device ID here, as defined in xparameters.h"
+  ^~~~~~~
+../src/bootloader.c:135:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "",
+     ^~
+../src/bootloader.c:135:5: note: (near initialization for 'errors[0]')
+../src/bootloader.c:136:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while copying executable image into RAM",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:136:5: note: (near initialization for 'errors[1]')
+../src/bootloader.c:137:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "Error while reading an SREC line from flash",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:137:5: note: (near initialization for 'errors[2]')
+../src/bootloader.c:138:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC line is corrupted",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:138:5: note: (near initialization for 'errors[3]')
+../src/bootloader.c:139:5: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+     "SREC has invalid checksum."
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:139:5: note: (near initialization for 'errors[4]')
+../src/bootloader.c: In function 'main':
+../src/bootloader.c:202:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from e:\software\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+e:\software\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c:205:16: warning: pointer targets in passing argument 1 of 'print' differ in signedness [-Wpointer-sign]
+         print (errors[ret]);
+                ^~~~~~
+In file included from e:\software\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/bootloader.c:34:
+e:\software\xilinx\sdk\2017.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: expected 'const char *' but argument is of type 'int8_t * {aka signed char *}'
+ void    _EXFUN(print, (const char* ));
+         ^
+../src/bootloader.c: In function 'flash_get_srec_line':
+../src/bootloader.c:289:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+      ReadParam.Address = flbuf++;
+                        ^
+../src/bootloader.c:309:13: warning: implicit declaration of function 'IsfWaitForFlashNotBusy' [-Wimplicit-function-declaration]
+    Status = IsfWaitForFlashNotBusy();
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/bootloader.c:334:28: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+          ReadParam.Address = flbuf++;
+                            ^
+'Finished building: ../src/bootloader.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/srec.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/srec.o" -I../../bootloader_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/srec.d" -MT"src/srec.o" -o "src/srec.o" "../src/srec.c"
+'Finished building: ../src/srec.c'
+' '
+'Building target: bootloader.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bootloader_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v10.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "bootloader.elf"  ./src/bootloader.o ./src/platform.o ./src/srec.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bootloader.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bootloader.elf  |tee "bootloader.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11624	    292	   1932	  13848	   3618	bootloader.elf
+'Finished building: bootloader.elf.size'
+' '
+19:11:03 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+19:13:12 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+19:17:53 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+19:19:51 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.
+19:21:09 **** Incremental Build of configuration Debug for project mipi_test ****
+make all 
+make: Nothing to be done for `all'.

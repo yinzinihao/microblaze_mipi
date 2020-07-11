@@ -1,0 +1,72 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port s_axi_CONTROL_BUS1 -pg 1 -y 680 -defaultsOSRD
+preplace port S_AXI_LITE -pg 1 -y 180 -defaultsOSRD
+preplace port AXI_Lite_Reg_Intf -pg 1 -y 250 -defaultsOSRD
+preplace port s2mm_introut1 -pg 1 -y 860 -defaultsOSRD
+preplace port m_axis_video_aresetn -pg 1 -y 380 -defaultsOSRD
+preplace port M_AXI_S2MM -pg 1 -y 210 -defaultsOSRD
+preplace port rst -pg 1 -y 20 -defaultsOSRD
+preplace port ref_clock_in -pg 1 -y 500 -defaultsOSRD
+preplace port m_axis_video_aclk -pg 1 -y 360 -defaultsOSRD
+preplace port s2mm_introut -pg 1 -y 250 -defaultsOSRD
+preplace port axi_resetn -pg 1 -y 630 -defaultsOSRD
+preplace port mipi_phy_if_0 -pg 1 -y 300 -defaultsOSRD
+preplace port s_axi_CONTROL_BUS -pg 1 -y 40 -defaultsOSRD
+preplace port mipi_phy_if_1 -pg 1 -y 480 -defaultsOSRD
+preplace port s_axi_lite_aclk -pg 1 -y 650 -defaultsOSRD
+preplace port M_AXI_S2MM1 -pg 1 -y 820 -defaultsOSRD
+preplace port S_AXI_LITE1 -pg 1 -y 790 -defaultsOSRD
+preplace port AXI_Lite_Reg_Intf1 -pg 1 -y 610 -defaultsOSRD
+preplace inst scaler_0 -pg 1 -lvl 6 -y 70 -defaultsOSRD
+preplace inst scaler_1 -pg 1 -lvl 6 -y 710 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 7 -y 230 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y 130 -defaultsOSRD
+preplace inst axi_vdma_1 -pg 1 -lvl 7 -y 840 -defaultsOSRD
+preplace inst AXI_GammaCorrection_0 -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst AXI_GammaCorrection_1 -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst csi_4lane_raw10_0 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 5 -y 110 -defaultsOSRD
+preplace inst csi_4lane_raw10_1 -pg 1 -lvl 1 -y 520 -defaultsOSRD
+preplace inst axis_subset_converter_1 -pg 1 -lvl 5 -y 560 -defaultsOSRD
+preplace inst v_ccm_0 -pg 1 -lvl 4 -y 310 -defaultsOSRD
+preplace inst v_ccm_1 -pg 1 -lvl 4 -y 540 -defaultsOSRD
+preplace inst AXI_BayerToRGB_0 -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst AXI_BayerToRGB_1 -pg 1 -lvl 2 -y 530 -defaultsOSRD
+preplace netloc axis_subset_converter_1_M_AXIS 1 5 1 1650
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 0 3 NJ 250 NJ 250 NJ
+preplace netloc axis_subset_converter_0_M_AXIS 1 5 1 1630
+preplace netloc axi_vdma_1_s2mm_introut 1 7 1 NJ
+preplace netloc axi_vdma_0_s2mm_introut 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M13_AXI 1 0 7 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc csi_4lane_raw10_0_m_axis_video 1 1 1 N
+preplace netloc mipi_phy_if_1_1 1 0 1 NJ
+preplace netloc rst_1 1 0 1 10
+preplace netloc microblaze_0_Clk 1 0 7 0 680 NJ 680 NJ 680 NJ 680 NJ 680 1680J 630 2110
+preplace netloc mipi_phy_if_0_1 1 0 1 NJ
+preplace netloc microblaze_0_axi_periph_M10_AXI 1 0 3 -20J 620 NJ 620 740J
+preplace netloc AXI_BayerToRGB_0_AXI_Stream_Master 1 2 1 710
+preplace netloc v_ccm_0_video_out 1 4 1 1380
+preplace netloc rst_mig_7series_0_300M_peripheral_aresetn 1 0 6 30 240 350 290 720 390 1120 650 NJ 650 1670
+preplace netloc v_ccm_1_video_out 1 4 1 N
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 0 7 NJ 630 NJ 630 760 480 1100J 640 NJ 640 1630J 610 2090
+preplace netloc xlconstant_0_dout 1 4 1 1370
+preplace netloc AXI_GammaCorrection_1_AXI_Stream_Master 1 3 1 1130
+preplace netloc AXI_GammaCorrection_0_AXI_Stream_Master 1 3 1 N
+preplace netloc scaler_0_video_out 1 6 1 2110
+preplace netloc clk_wiz_0_clk_out1 1 0 7 20 430 370 430 750 380 1140 230 1390 190 1660 260 2070
+preplace netloc scaler_1_video_out 1 6 1 2080
+preplace netloc microblaze_0_axi_periph_M14_AXI 1 0 7 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ
+preplace netloc Net 1 0 7 -10J 610 NJ 610 730 470 1110J 630 NJ 630 1640J 620 2100
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 7 1 NJ
+preplace netloc AXI_BayerToRGB_1_AXI_Stream_Master 1 2 1 N
+preplace netloc csi_4lane_raw10_1_m_axis_video 1 1 1 360
+preplace netloc microblaze_0_axi_periph_M12_AXI 1 0 6 -20J 690 NJ 690 NJ 690 NJ 690 NJ 690 1690J
+preplace netloc microblaze_0_axi_periph_M11_AXI 1 0 6 NJ 40 NJ 40 NJ 40 NJ 40 NJ 40 NJ
+levelinfo -pg 1 -40 190 540 930 1260 1510 1880 2280 2470 -top -10 -bot 940
+",
+}
+

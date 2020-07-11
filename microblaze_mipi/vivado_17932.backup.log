@@ -1,0 +1,804 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jul 11 16:29:12 2020
+# Process ID: 17932
+# Current directory: I:/NEW_214te/microblaze_mipi21/microblaze_mipi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10508 I:\NEW_214te\microblaze_mipi21\microblaze_mipi\microblaze_base.xpr
+# Log file: I:/NEW_214te/microblaze_mipi21/microblaze_mipi/vivado.log
+# Journal file: I:/NEW_214te/microblaze_mipi21/microblaze_mipi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.xpr
+INFO: [Project 1-313] Project file moved from 'F:/xilinx_project/AX7325/microblaze_mipi' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'J:/test_board/board_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 1023.066 ; gain = 286.836
+update_compile_order -fileset sources_1
+open_bd_design {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_200M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - reset_io
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_300M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - csi_rst
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_1
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_2
+Adding cell -- digilentinc.com:user:AXI_BayerToRGB:1.3 - AXI_BayerToRGB_1
+Adding cell -- xilinx.com:hls:scaler:1.0 - scaler_0
+Adding cell -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_0
+Adding cell -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:hls:scaler:1.0 - scaler_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
+Adding cell -- xilinx.com:ip:v_ccm:6.0 - v_ccm_0
+Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_1
+Adding cell -- xilinx.com:ip:v_ccm:6.0 - v_ccm_1
+Adding cell -- digilentinc.com:user:AXI_BayerToRGB:1.3 - AXI_BayerToRGB_0
+Adding cell -- alinx.com.cn:user:csi_4lane_raw10:2.0 - csi_4lane_raw10_0
+Adding cell -- alinx.com.cn:user:csi_4lane_raw10:2.0 - csi_4lane_raw10_1
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Successfully read diagram <design_1> from BD file <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1131.336 ; gain = 100.465
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1170.969 ; gain = 8.176
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:33:42 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_DATA_DEPTH {8192} CONFIG.C_NUM_OF_PROBES {9} CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {true} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:37:27 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:39:13 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:40:56 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:42:27 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:44:28 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:47:07 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:48:39 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:50:10 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:51:03 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:52:07 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:53:02 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 16:58:33 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+INFO: [IP_Flow 19-4728] Bus Interface 'ref_clock_in': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -log ip_upgrade.log
+Upgrading 'I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_0 (csi_4lane_raw10_v2_0 2.0) from revision 2 to revision 3
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_1 (csi_4lane_raw10_v2_0 2.0) from revision 2 to revision 3
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'I:/NEW_214te/microblaze_mipi21/microblaze_mipi/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.988 ; gain = 0.000
+export_ip_user_files -of_objects [get_ips {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+delete_ip_run [get_files -of_objects [get_fileset sources_1] I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+delete_ip_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1328.988 ; gain = 0.000
+set_property synth_checkpoint_mode None [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+generate_target all [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+xit::source_ipfile: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1431.559 ; gain = 81.238
+xit::source_ipfile: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1436.563 ; gain = 5.004
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/REF_CLK_I have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/PXL_CLK_O have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_axi_dynclk_0_0_PXL_CLK_O 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/s00_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+Exporting to file i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block reset_io .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_300M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block csi_rst .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_16/design_1_auto_cc_16_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m17_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_15/design_1_auto_cc_15_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m16_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_14/design_1_auto_cc_14_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m15_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_13/design_1_auto_cc_13_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m14_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_12/design_1_auto_cc_12_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m13_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_11/design_1_auto_cc_11_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m12_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_10/design_1_auto_cc_10_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m11_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_9/design_1_auto_cc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_8/design_1_auto_cc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m09_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_7/design_1_auto_cc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_6/design_1_auto_cc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m07_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_5/design_1_auto_cc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_cc .
+Exporting to file I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:01:09 ; elapsed = 00:01:33 . Memory (MB): peak = 1745.445 ; gain = 416.457
+export_ip_user_files -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1760.543 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 17:10:08 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 17:39:41 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {31} CONFIG.C_PROBE0_WIDTH {31} CONFIG.C_DATA_DEPTH {4096} CONFIG.C_NUM_OF_PROBES {9} CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {true} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32}] [get_ips ila_0]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 17:45:56 2020] Launched synth_1...
+Run output will be captured here: i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -log ip_upgrade.log
+Upgrading 'I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_0 (csi_4lane_raw10_v2_0 2.0) from revision 3 to revision 4
+INFO: [IP_Flow 19-3422] Upgraded design_1_csi_4lane_raw10_0_1 (csi_4lane_raw10_v2_0 2.0) from revision 3 to revision 4
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'I:/NEW_214te/microblaze_mipi21/microblaze_mipi/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+xit::source_ipfile: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1863.867 ; gain = 0.000
+xit::source_ipfile: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1863.867 ; gain = 0.000
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-17] /camera_system/axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-177] /camera_system/axi_vdma_1 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_vdma:6.3-16] /display_system/axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.3-166] /display_system/axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0xFFFFFFFF.
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ########################################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are asynchronous to each other.
+                  ########################################################################################
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/REF_CLK_I have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/PXL_CLK_O have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_axi_dynclk_0_0_PXL_CLK_O 
+WARNING: [BD 41-927] Following properties on pin /display_system/axi_dynclk_0/s00_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_0/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_GammaCorrection_1/AxiLiteClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /camera_system/AXI_BayerToRGB_0/StreamClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_mig_7series_0_0_ui_clk 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+Exporting to file i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block reset_io .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block display_system/axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_BayerToRGB_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/AXI_GammaCorrection_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/csi_4lane_raw10_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/v_ccm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axis_subset_converter_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/scaler_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_300M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block camera_system/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block csi_rst .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_16/design_1_auto_cc_16_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m17_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_15/design_1_auto_cc_15_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m16_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_14/design_1_auto_cc_14_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m15_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_13/design_1_auto_cc_13_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m14_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_12/design_1_auto_cc_12_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m13_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_11/design_1_auto_cc_11_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m12_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_10/design_1_auto_cc_10_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m11_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_9/design_1_auto_cc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_8/design_1_auto_cc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m09_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_7/design_1_auto_cc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m08_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_6/design_1_auto_cc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m07_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_5/design_1_auto_cc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m04_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m03_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m02_couplers/auto_cc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'i:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m01_couplers/auto_cc .
+Exporting to file I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:01:33 ; elapsed = 00:01:59 . Memory (MB): peak = 2074.332 ; gain = 210.465
+export_ip_user_files -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+set_param general.maxThreads 8
+8
+launch_runs synth_1 -jobs 8
+[Sat Jul 11 17:54:34 2020] Launched synth_1...
+Run output will be captured here: I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sat Jul 11 18:43:48 2020] Launched impl_1...
+Run output will be captured here: I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/runme.log
+file copy -force I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.sysdef I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+
+file copy -force I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.sysdef I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk -hwspec I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk -hwspec I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2824.152 ; gain = 0.574
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2824.586 ; gain = 0.254
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2824.848 ; gain = 0.254
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2824.926 ; gain = 0.070
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2827.406 ; gain = 0.582
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2827.910 ; gain = 0.504
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2830.703 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_0/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'design_1_i/camera_system/csi_4lane_raw10_1/inst/csi_rx_4lane_m0/depacket/verilogmodelGE' from probes file, since it cannot be found on the programmed device.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 11 19:24:56 2020...

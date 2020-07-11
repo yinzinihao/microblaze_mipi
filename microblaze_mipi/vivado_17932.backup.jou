@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jul 11 16:29:12 2020
+# Process ID: 17932
+# Current directory: I:/NEW_214te/microblaze_mipi21/microblaze_mipi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10508 I:\NEW_214te\microblaze_mipi21\microblaze_mipi\microblaze_base.xpr
+# Log file: I:/NEW_214te/microblaze_mipi21/microblaze_mipi/vivado.log
+# Journal file: I:/NEW_214te/microblaze_mipi21/microblaze_mipi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.xpr
+update_compile_order -fileset sources_1
+open_bd_design {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd}
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_DATA_DEPTH {8192} CONFIG.C_NUM_OF_PROBES {9} CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {true} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci]
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+delete_ip_run [get_files -of_objects [get_fileset sources_1] I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+set_property synth_checkpoint_mode None [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+generate_target all [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name csi_4lane_raw10_v2_0_project -directory I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {31} CONFIG.C_PROBE0_WIDTH {31} CONFIG.C_DATA_DEPTH {4096} CONFIG.C_NUM_OF_PROBES {9} CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {true} CONFIG.C_PROBE8_MU_CNT {2} CONFIG.C_PROBE7_MU_CNT {2} CONFIG.C_PROBE6_MU_CNT {2} CONFIG.C_PROBE5_MU_CNT {2} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+update_compile_order -fileset sources_1
+set_property generate_synth_checkpoint false [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32}] [get_ips ila_0]
+generate_target all [get_files  i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci]
+export_ip_user_files -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo/mipi/mipi_csi_rx_4lane/src/ila_0_1/ila_0.xci] -directory i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/sim_scripts -ip_user_files_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files -ipstatic_source_dir i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/modelsim} {questa=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/questa} {riviera=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/riviera} {activehdl=i:/new_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.tmp/csi_4lane_raw10_v2_0_project/csi_4lane_raw10_v2_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path i:/NEW_214te/microblaze_mipi21/microblaze_mipi/repo
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {design_1_csi_4lane_raw10_0_1 design_1_csi_4lane_raw10_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.srcs/sources_1/bd/design_1/design_1.bd] -directory I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files/sim_scripts -ip_user_files_dir I:/NEW_214te/microblaze/ax7325/microblaze_mipi/microblaze_base.ip_user_files -ipstatic_source_dir I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.ip_user_files/ipstatic -lib_map_path [list {modelsim=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/modelsim} {questa=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/questa} {riviera=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/riviera} {activehdl=I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+set_param general.maxThreads 8
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.sysdef I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+
+file copy -force I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.sysdef I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk -hwspec I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.sdk/design_1_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {I:/NEW_214te/microblaze_mipi21/microblaze_mipi/microblaze_base.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
